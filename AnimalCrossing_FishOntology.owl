@@ -2,11 +2,29 @@
 <rdf:RDF xmlns="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#"
      xml:base="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:untitled-ontology-10="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
     <owl:Ontology rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Definition -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Definition"/>
     
 
 
@@ -25,6 +43,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Afternoon">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#TimeOfDay"/>
+        <Definition>Afternoon refers to any time between 12:00 PM to 3:59 PM in the game.</Definition>
+        <rdfs:isDefinedBy>JM</rdfs:isDefinedBy>
     </owl:Class>
     
 
@@ -121,6 +141,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Dawn">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#TimeOfDay"/>
+        <Definition>Dawn refers to any time between 4:00 AM to 7:59 AM in the game.</Definition>
+        <rdfs:isDefinedBy>JM</rdfs:isDefinedBy>
     </owl:Class>
     
 
@@ -137,6 +159,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Evening">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#TimeOfDay"/>
+        <Definition>Evening refers to any time between 4:00 PM to 7:59 PM  in the game.</Definition>
+        <rdfs:isDefinedBy>JM</rdfs:isDefinedBy>
     </owl:Class>
     
 
@@ -213,6 +237,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#LateNight">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#TimeOfDay"/>
+        <Definition>LateNight refers to any time between 12:00 AM to 3:59 AM in the game.</Definition>
+        <rdfs:isDefinedBy>JM</rdfs:isDefinedBy>
     </owl:Class>
     
 
@@ -251,6 +277,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Morning">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#TimeOfDay"/>
+        <Definition>Morning refers to any time between 8:00 AM to 11:59 AM in the game.</Definition>
+        <rdfs:isDefinedBy>JM</rdfs:isDefinedBy>
     </owl:Class>
     
 
@@ -267,6 +295,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Night">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#TimeOfDay"/>
+        <Definition>Night refers to any time between 8:00 PM to 11:59 PM in the game.</Definition>
+        <rdfs:isDefinedBy>JM</rdfs:isDefinedBy>
     </owl:Class>
     
 
@@ -403,7 +433,10 @@
 
     <!-- http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#TimeOfDay -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#TimeOfDay"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#TimeOfDay">
+        <Definition>The Animal Crossing series features a day-night cycle, that matches 1:1 with real-world time. The time of day affects many features such as the brightness, fish and insects available, and NPC schedules.</Definition>
+        <rdfs:isDefinedBy>JM</rdfs:isDefinedBy>
+    </owl:Class>
     
 
 
