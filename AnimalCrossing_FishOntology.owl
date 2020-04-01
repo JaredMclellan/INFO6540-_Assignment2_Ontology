@@ -131,9 +131,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Afternoon -->
+    <!-- http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AfternoonHours -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Afternoon">
+    <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AfternoonHours">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#TimeOfDay"/>
     </owl:Class>
     
@@ -227,9 +227,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Dawn -->
+    <!-- http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#DawnHours -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Dawn">
+    <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#DawnHours">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#TimeOfDay"/>
     </owl:Class>
     
@@ -243,17 +243,17 @@
     
 
 
-    <!-- http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Evening -->
+    <!-- http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#EveningHours -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Evening">
+    <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#EveningHours">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#TimeOfDay"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Fall -->
+    <!-- http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#FallMonth -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Fall">
+    <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#FallMonth">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Season"/>
     </owl:Class>
     
@@ -319,9 +319,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#LateNight -->
+    <!-- http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#LateNightHours -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#LateNight">
+    <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#LateNightHours">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#TimeOfDay"/>
     </owl:Class>
     
@@ -357,9 +357,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Morning -->
+    <!-- http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#MorningHours -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Morning">
+    <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#MorningHours">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#TimeOfDay"/>
     </owl:Class>
     
@@ -373,9 +373,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Night -->
+    <!-- http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#NightHours -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Night">
+    <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#NightHours">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#TimeOfDay"/>
     </owl:Class>
     
@@ -497,17 +497,17 @@
     
 
 
-    <!-- http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Spring -->
+    <!-- http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SpringMonth -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Spring">
+    <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SpringMonth">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Season"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Summer -->
+    <!-- http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SummerMonth -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Summer">
+    <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SummerMonth">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Season"/>
     </owl:Class>
     
@@ -543,9 +543,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Winter -->
+    <!-- http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#WinterMonth -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Winter">
+    <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#WinterMonth">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Season"/>
     </owl:Class>
     
@@ -562,12 +562,12 @@
     <rdf:Description>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
         <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Afternoon"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Dawn"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Evening"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#LateNight"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Morning"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Night"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AfternoonHours"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#DawnHours"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#EveningHours"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#LateNightHours"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#MorningHours"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#NightHours"/>
         </owl:members>
     </rdf:Description>
     <rdf:Description>
@@ -608,10 +608,10 @@
     <rdf:Description>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
         <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Fall"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Spring"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Summer"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Winter"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#FallMonth"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SpringMonth"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SummerMonth"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#WinterMonth"/>
         </owl:members>
     </rdf:Description>
     <rdf:Description>
