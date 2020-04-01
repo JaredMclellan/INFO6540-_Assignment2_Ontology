@@ -13,6 +13,87 @@
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasAvailable"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#GameHas -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#GameHas">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#InGame"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HabitatOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HabitatOf">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasHabitat"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasAvailable -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasAvailable"/>
+    
+
+
+    <!-- http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasHabitat -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasHabitat"/>
+    
+
+
+    <!-- http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasPrice -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasPrice">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#PriceOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasSize -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasSize">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SizeOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#InGame -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#InGame"/>
+    
+
+
+    <!-- http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#PriceOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#PriceOf"/>
+    
+
+
+    <!-- http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SizeOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SizeOf"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
     // Classes
     //
     ///////////////////////////////////////////////////////////////////////////////////////
