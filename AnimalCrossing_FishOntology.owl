@@ -35,6 +35,8 @@
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#GameHas">
         <owl:inverseOf rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#InGame"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Game"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Fish"/>
     </owl:ObjectProperty>
     
 
@@ -43,19 +45,27 @@
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HabitatOf">
         <owl:inverseOf rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasHabitat"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Location"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Fish"/>
     </owl:ObjectProperty>
     
 
 
     <!-- http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasAvailable -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasAvailable"/>
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasAvailable">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Time"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Fish"/>
+    </owl:ObjectProperty>
     
 
 
     <!-- http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasHabitat -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasHabitat"/>
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasHabitat">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Fish"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Location"/>
+    </owl:ObjectProperty>
     
 
 
@@ -63,6 +73,9 @@
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasPrice">
         <owl:inverseOf rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#PriceOf"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Fish"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Price"/>
     </owl:ObjectProperty>
     
 
@@ -71,25 +84,39 @@
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasSize">
         <owl:inverseOf rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SizeOf"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Fish"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Size"/>
     </owl:ObjectProperty>
     
 
 
     <!-- http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#InGame -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#InGame"/>
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#InGame">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Fish"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Game"/>
+    </owl:ObjectProperty>
     
 
 
     <!-- http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#PriceOf -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#PriceOf"/>
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#PriceOf">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Price"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Fish"/>
+    </owl:ObjectProperty>
     
 
 
     <!-- http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SizeOf -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SizeOf"/>
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SizeOf">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Size"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Fish"/>
+    </owl:ObjectProperty>
     
 
 
