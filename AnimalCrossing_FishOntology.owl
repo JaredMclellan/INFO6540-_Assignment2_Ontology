@@ -91,6 +91,16 @@
     
 
 
+    <!-- http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SharesTankWith -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SharesTankWith">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ReflexiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SizeOf -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SizeOf">
