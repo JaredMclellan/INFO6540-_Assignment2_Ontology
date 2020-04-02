@@ -189,20 +189,76 @@ Size is SizeOf fish1, fish2, ...</Definition>
     
 
 
-    <!-- http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AfternoonHours -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AfternoonHours">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#TimeOfDay"/>
-        <Definition>Afternoon refers to any time between 12:00 PM to 3:59 PM in the game.</Definition>
-        <rdfs:isDefinedBy>JM</rdfs:isDefinedBy>
-    </owl:Class>
-    
-
-
     <!-- http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Angelfish -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Angelfish">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Fish"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HoursDawn"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HoursEvening"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HoursLateNight"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HoursMorning"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HoursNight"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#MonthFall"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#MonthSpring"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#MonthSummer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasHabitat"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#River"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasPrice"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#PriceHigh"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasSize"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SizeSmall"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -211,6 +267,78 @@ Size is SizeOf fish1, fish2, ...</Definition>
 
     <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Bitterling">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Fish"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HoursAfternoon"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HoursDawn"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HoursEvening"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HoursLateNight"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HoursMorning"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HoursNight"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#MonthFall"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#MonthSpring"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#MonthWinter"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasHabitat"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#River"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasPrice"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#PriceLow"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasSize"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SizeSmall"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -255,38 +383,10 @@ Size is SizeOf fish1, fish2, ...</Definition>
     
 
 
-    <!-- http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#DawnHours -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#DawnHours">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#TimeOfDay"/>
-        <Definition>Dawn refers to any time between 4:00 AM to 7:59 AM in the game.</Definition>
-        <rdfs:isDefinedBy>JM</rdfs:isDefinedBy>
-    </owl:Class>
-    
-
-
     <!-- http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Dorado -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Dorado">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Fish"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#EveningHours -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#EveningHours">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#TimeOfDay"/>
-        <Definition>Evening refers to any time between 4:00 PM to 7:59 PM  in the game.</Definition>
-        <rdfs:isDefinedBy>JM</rdfs:isDefinedBy>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#FallMonth -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#FallMonth">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Season"/>
     </owl:Class>
     
 
@@ -313,10 +413,62 @@ Size is SizeOf fish1, fish2, ...</Definition>
     
 
 
-    <!-- http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HighPrice -->
+    <!-- http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HoursAfternoon -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HighPrice">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Price"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HoursAfternoon">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#TimeOfDay"/>
+        <Definition>Afternoon refers to any time between 12:00 PM to 3:59 PM in the game.</Definition>
+        <rdfs:isDefinedBy>JM</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HoursDawn -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HoursDawn">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#TimeOfDay"/>
+        <Definition>Dawn refers to any time between 4:00 AM to 7:59 AM in the game.</Definition>
+        <rdfs:isDefinedBy>JM</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HoursEvening -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HoursEvening">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#TimeOfDay"/>
+        <Definition>Evening refers to any time between 4:00 PM to 7:59 PM  in the game.</Definition>
+        <rdfs:isDefinedBy>JM</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HoursLateNight -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HoursLateNight">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#TimeOfDay"/>
+        <Definition>LateNight refers to any time between 12:00 AM to 3:59 AM in the game.</Definition>
+        <rdfs:isDefinedBy>JM</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HoursMorning -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HoursMorning">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#TimeOfDay"/>
+        <Definition>Morning refers to any time between 8:00 AM to 11:59 AM in the game.</Definition>
+        <rdfs:isDefinedBy>JM</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HoursNight -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HoursNight">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#TimeOfDay"/>
+        <Definition>Night refers to any time between 8:00 PM to 11:59 PM in the game.</Definition>
+        <rdfs:isDefinedBy>JM</rdfs:isDefinedBy>
     </owl:Class>
     
 
@@ -337,60 +489,40 @@ Size is SizeOf fish1, fish2, ...</Definition>
     
 
 
-    <!-- http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#LargeSize -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#LargeSize">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Size"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#LateNightHours -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#LateNightHours">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#TimeOfDay"/>
-        <Definition>LateNight refers to any time between 12:00 AM to 3:59 AM in the game.</Definition>
-        <rdfs:isDefinedBy>JM</rdfs:isDefinedBy>
-    </owl:Class>
-    
-
-
     <!-- http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Location -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Location"/>
     
 
 
-    <!-- http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#LowPrice -->
+    <!-- http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#MonthFall -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#LowPrice">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Price"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#MonthFall">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Season"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#MediumPrice -->
+    <!-- http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#MonthSpring -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#MediumPrice">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Price"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#MonthSpring">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Season"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#MediumSize -->
+    <!-- http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#MonthSummer -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#MediumSize">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Size"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#MonthSummer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Season"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#MorningHours -->
+    <!-- http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#MonthWinter -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#MorningHours">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#TimeOfDay"/>
-        <Definition>Morning refers to any time between 8:00 AM to 11:59 AM in the game.</Definition>
-        <rdfs:isDefinedBy>JM</rdfs:isDefinedBy>
+    <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#MonthWinter">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Season"/>
     </owl:Class>
     
 
@@ -399,16 +531,6 @@ Size is SizeOf fish1, fish2, ...</Definition>
 
     <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#NeonTetra">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Fish"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#NightHours -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#NightHours">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#TimeOfDay"/>
-        <Definition>Night refers to any time between 8:00 PM to 11:59 PM in the game.</Definition>
-        <rdfs:isDefinedBy>JM</rdfs:isDefinedBy>
     </owl:Class>
     
 
@@ -448,6 +570,46 @@ Size is SizeOf fish1, fish2, ...</Definition>
     <!-- http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Price -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Price"/>
+    
+
+
+    <!-- http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#PriceHigh -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#PriceHigh">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Price"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#PriceLow -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#PriceLow">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Price"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#PriceMedium -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#PriceMedium">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Price"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#PriceVeryHigh -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#PriceVeryHigh">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Price"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#PriceVeryLow -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#PriceVeryLow">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Price"/>
+    </owl:Class>
     
 
 
@@ -521,26 +683,26 @@ Size is SizeOf fish1, fish2, ...</Definition>
     
 
 
-    <!-- http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SmallSize -->
+    <!-- http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SizeLarge -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SmallSize">
+    <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SizeLarge">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Size"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SpringMonth -->
+    <!-- http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SizeMedium -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SpringMonth">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Season"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SizeMedium">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Size"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SummerMonth -->
+    <!-- http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SizeSmall -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SummerMonth">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Season"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SizeSmall">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Size"/>
     </owl:Class>
     
 
@@ -559,30 +721,6 @@ Size is SizeOf fish1, fish2, ...</Definition>
     
 
 
-    <!-- http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#VeryHighPrice -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#VeryHighPrice">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Price"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#VeryLowPrice -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#VeryLowPrice">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Price"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#WinterMonth -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#WinterMonth">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Season"/>
-    </owl:Class>
-    
-
-
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -591,17 +729,6 @@ Size is SizeOf fish1, fish2, ...</Definition>
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    <rdf:Description>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
-        <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AfternoonHours"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#DawnHours"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#EveningHours"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#LateNightHours"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#MorningHours"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#NightHours"/>
-        </owl:members>
-    </rdf:Description>
     <rdf:Description>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
         <owl:members rdf:parseType="Collection">
@@ -631,28 +758,21 @@ Size is SizeOf fish1, fish2, ...</Definition>
     <rdf:Description>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
         <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#FallMonth"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SpringMonth"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SummerMonth"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#WinterMonth"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HoursAfternoon"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HoursDawn"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HoursEvening"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HoursLateNight"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HoursMorning"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HoursNight"/>
         </owl:members>
     </rdf:Description>
     <rdf:Description>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
         <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HighPrice"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#LowPrice"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#MediumPrice"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#VeryHighPrice"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#VeryLowPrice"/>
-        </owl:members>
-    </rdf:Description>
-    <rdf:Description>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
-        <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#LargeSize"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#MediumSize"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SmallSize"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#MonthFall"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#MonthSpring"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#MonthSummer"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#MonthWinter"/>
         </owl:members>
     </rdf:Description>
     <rdf:Description>
@@ -661,6 +781,24 @@ Size is SizeOf fish1, fish2, ...</Definition>
             <rdf:Description rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Pond"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#River"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Sea"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#PriceHigh"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#PriceLow"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#PriceMedium"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#PriceVeryHigh"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#PriceVeryLow"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SizeLarge"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SizeMedium"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SizeSmall"/>
         </owl:members>
     </rdf:Description>
 </rdf:RDF>
