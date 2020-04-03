@@ -1456,7 +1456,11 @@ Fish1 SharesTankWith fish2</Definition>
 
     <!-- http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Location -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Location"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Location">
+        <Definition>On the island in Animal Crossing: New Horizons there are 3 different bodies of water. Bodies of water can only be of one main type. 
+
+Some bodies of water have more specific varities. These varities inherit the fish of their parent class, while also hosting unique features.</Definition>
+    </owl:Class>
     
 
 
@@ -1782,6 +1786,16 @@ Fish1 SharesTankWith fish2</Definition>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Koi"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <Definition>Ponds are any body of water that does not eventually connect into the ocean.</Definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#PondAlpine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#PondAlpine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Pond"/>
+        <Definition>An alpine pond is a pond that is located on a cliff.</Definition>
     </owl:Class>
     
 
@@ -2335,6 +2349,25 @@ Fish1 SharesTankWith fish2</Definition>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#PondSmelt"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <Definition>A river is a body of water on the island that eventually leads into the sea.</Definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#RiverAlpine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#RiverAlpine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#River"/>
+        <Definition>An apline river is a river located on a cliff.</Definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#RiverMouth -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#RiverMouth">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#River"/>
+        <Definition>The river mouth is the area where the river leads into the sea, but is still located on the island itself. It is the river water after it hits the beach, but before it passes the sand on the beach.</Definition>
     </owl:Class>
     
 
@@ -2501,6 +2534,7 @@ Fish1 SharesTankWith fish2</Definition>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Seahorse"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <Definition>The sea is the water surrounding the entire island. The sea is the water past the sand on the beach.</Definition>
     </owl:Class>
     
 
