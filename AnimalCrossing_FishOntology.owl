@@ -107,11 +107,11 @@ Fish HasSize size</Definition>
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#IsAvailableDuring">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Fish"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Time"/>
-        <Definition>AvailableDuring property shows the time a fish is available to catch in the game. This can either refer to the season or the time of day they are available. Every fish must be available during at least 1 season and at least 1 time of day.
+        <Definition>IsAvailableDuring property shows the time a fish is available to catch in the game. This can either refer to the season or the time of day they are available. Every fish must be available during at least 1 season and at least 1 time of day.
 
 Triplet example:
-Fish is AvailableDuring season1, season2, ...
-Fish is AvailableDuring timeOfDay1, timeOfDay2, ...</Definition>
+Fish IsAvailableDuring season1, season2, ...
+Fish IsAvailableDuring timeOfDay1, timeOfDay2, ...</Definition>
         <rdfs:isDefinedBy>JM</rdfs:isDefinedBy>
     </owl:ObjectProperty>
     
@@ -122,10 +122,10 @@ Fish is AvailableDuring timeOfDay1, timeOfDay2, ...</Definition>
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#IsHabitatOf">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Location"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Fish"/>
-        <Definition>HabitatOf property shows the fish available at a given location.
+        <Definition>IsHabitatOf property shows the fish available at a given location.
 
 Triplet example:
-Location is a HabitatOf fish1, fish2, ...</Definition>
+Location IsHabitatOf fish1, fish2, ...</Definition>
         <rdfs:isDefinedBy>JM</rdfs:isDefinedBy>
     </owl:ObjectProperty>
     
@@ -137,10 +137,10 @@ Location is a HabitatOf fish1, fish2, ...</Definition>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Price"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Fish"/>
-        <Definition>PriceOf property shows the fish that can be sold in a certain price range.
+        <Definition>IsPriceOf property shows the fish that can be sold in a certain price range.
 
 Triplet example:
-Price is the PriceOf fish1, fish2, ...</Definition>
+Price IsPriceOf fish1, fish2, ...</Definition>
         <rdfs:isDefinedBy>JM</rdfs:isDefinedBy>
     </owl:ObjectProperty>
     
@@ -152,10 +152,10 @@ Price is the PriceOf fish1, fish2, ...</Definition>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Size"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Fish"/>
-        <Definition>SizeOf property shows the fish that can be found at a given size. A fish species can be only one size, but multiple fish species can have the same size.
+        <Definition>IsSizeOf property shows the fish that can be found at a given size. A fish species can be only one size, but multiple fish species can have the same size.
 
 Triplet example:
-Size is SizeOf fish1, fish2, ...</Definition>
+Size IsSizeOf fish1, fish2, ...</Definition>
         <rdfs:isDefinedBy>JM</rdfs:isDefinedBy>
     </owl:ObjectProperty>
     
