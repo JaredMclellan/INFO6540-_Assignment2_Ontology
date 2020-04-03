@@ -192,7 +192,7 @@ Size is SizeOf fish1, fish2, ...</Definition>
     <!-- http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Angelfish -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Angelfish">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Fish"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#FishSpecies"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
@@ -259,6 +259,30 @@ Size is SizeOf fish1, fish2, ...</Definition>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SizeSmall"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SharesTankWith"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Angelfish"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SharesTankWith"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Guppy"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SharesTankWith"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Killifish"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SharesTankWith"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#NeonTetra"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -266,7 +290,7 @@ Size is SizeOf fish1, fish2, ...</Definition>
     <!-- http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Bitterling -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Bitterling">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Fish"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#FishSpecies"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
@@ -339,6 +363,36 @@ Size is SizeOf fish1, fish2, ...</Definition>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SizeSmall"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SharesTankWith"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Bitterling"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SharesTankWith"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Catfish"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SharesTankWith"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#GiantSnakehead"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SharesTankWith"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Koi"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SharesTankWith"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Pike"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -346,7 +400,97 @@ Size is SizeOf fish1, fish2, ...</Definition>
     <!-- http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Blowfish -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Blowfish">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Fish"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#FishSpecies"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HoursEvening"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HoursLateNight"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HoursNight"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#MonthFall"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#MonthWinter"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasHabitat"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Sea"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasPrice"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#PriceVeryHigh"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasSize"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SizeMedium"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SharesTankWith"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Blowfish"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SharesTankWith"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Dab"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SharesTankWith"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Ray"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SharesTankWith"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#RedSnapper"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SharesTankWith"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SawShark"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SharesTankWith"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SeaBass"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SharesTankWith"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Seahorse"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -354,7 +498,103 @@ Size is SizeOf fish1, fish2, ...</Definition>
     <!-- http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Catfish -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Catfish">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Fish"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#FishSpecies"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HoursDawn"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HoursEvening"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HoursLateNight"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HoursMorning"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HoursNight"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#MonthFall"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#MonthSpring"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#MonthSummer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasHabitat"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Pond"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasPrice"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#PriceLow"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasSize"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#PriceMedium"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SharesTankWith"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Bitterling"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SharesTankWith"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Catfish"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SharesTankWith"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#GiantSnakehead"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SharesTankWith"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Koi"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SharesTankWith"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Pike"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -362,7 +602,85 @@ Size is SizeOf fish1, fish2, ...</Definition>
     <!-- http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Clownfish -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Clownfish">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Fish"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#FishSpecies"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HoursAfternoon"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HoursDawn"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HoursEvening"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HoursLateNight"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HoursMorning"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HoursNight"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#MonthFall"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#MonthSpring"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#MonthSummer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasHabitat"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Sea"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasPrice"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#PriceLow"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasSize"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SizeSmall"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SharesTankWith"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Clownfish"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -370,7 +688,121 @@ Size is SizeOf fish1, fish2, ...</Definition>
     <!-- http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Dab -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Dab">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Fish"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#FishSpecies"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HoursAfternoon"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HoursDawn"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HoursEvening"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HoursLateNight"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HoursMorning"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HoursNight"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#MonthFall"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#MonthSpring"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#MonthWinter"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasHabitat"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Sea"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasPrice"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#PriceVeryLow"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasSize"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SizeMedium"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SharesTankWith"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Blowfish"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SharesTankWith"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Dab"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SharesTankWith"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Ray"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SharesTankWith"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#RedSnapper"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SharesTankWith"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SawShark"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SharesTankWith"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SeaBass"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SharesTankWith"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Seahorse"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -378,7 +810,85 @@ Size is SizeOf fish1, fish2, ...</Definition>
     <!-- http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Dace -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Dace">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Fish"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#FishSpecies"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HoursDawn"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HoursEvening"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HoursLateNight"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HoursMorning"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HoursNight"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#MonthFall"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#MonthSpring"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#MonthSummer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#MonthWinter"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasHabitat"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#River"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasPrice"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#PriceVeryLow"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasSize"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SizeMedium"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SharesTankWith"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Dace"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -386,21 +896,231 @@ Size is SizeOf fish1, fish2, ...</Definition>
     <!-- http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Dorado -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Dorado">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Fish"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#FishSpecies"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HoursAfternoon"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HoursDawn"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HoursEvening"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HoursMorning"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HoursNight"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#MonthFall"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#MonthSummer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasHabitat"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#River"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasPrice"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#PriceVeryHigh"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasSize"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SizeLarge"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SharesTankWith"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Dorado"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SharesTankWith"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Piranha"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
 
     <!-- http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Fish -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Fish"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Fish">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Season"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#TimeOfDay"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasHabitat"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Location"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasPrice"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Price"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasSize"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Size"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SharesTankWith"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Fish"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#FishSpecies -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#FishSpecies">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Fish"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#FishType -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#FishType">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:complementOf>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#MonthFall"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#MonthSpring"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#MonthSummer"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#MonthWinter"/>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:complementOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Fish"/>
+    </owl:Class>
     
 
 
     <!-- http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#GiantSnakehead -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#GiantSnakehead">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Fish"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#FishSpecies"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HoursAfternoon"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HoursMorning"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#MonthSummer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasHabitat"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Pond"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasPrice"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#PriceVeryHigh"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasSize"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SizeLarge"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SharesTankWith"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Bitterling"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SharesTankWith"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Catfish"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SharesTankWith"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#GiantSnakehead"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SharesTankWith"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Koi"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SharesTankWith"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Pike"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -408,7 +1128,79 @@ Size is SizeOf fish1, fish2, ...</Definition>
     <!-- http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Guppy -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Guppy">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Fish"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#FishSpecies"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HoursAfternoon"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HoursMorning"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#MonthFall"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#MonthSpring"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#MonthSummer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasHabitat"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#River"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasPrice"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#PriceMedium"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasSize"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SizeSmall"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SharesTankWith"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Angelfish"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SharesTankWith"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Guppy"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SharesTankWith"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Killifish"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SharesTankWith"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#NeonTetra"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -476,7 +1268,97 @@ Size is SizeOf fish1, fish2, ...</Definition>
     <!-- http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Killifish -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Killifish">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Fish"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#FishSpecies"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HoursAfternoon"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HoursDawn"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HoursEvening"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HoursLateNight"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HoursMorning"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HoursNight"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#MonthSpring"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#MonthSummer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasHabitat"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Pond"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasPrice"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#PriceVeryLow"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasSize"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SizeSmall"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SharesTankWith"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Angelfish"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SharesTankWith"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Guppy"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SharesTankWith"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Killifish"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SharesTankWith"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#NeonTetra"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -484,7 +1366,109 @@ Size is SizeOf fish1, fish2, ...</Definition>
     <!-- http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Koi -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Koi">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Fish"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#FishSpecies"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HoursDawn"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HoursEvening"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HoursLateNight"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HoursMorning"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HoursNight"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#MonthFall"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#MonthSpring"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#MonthSummer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#MonthWinter"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasHabitat"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Pond"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasPrice"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#PriceHigh"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasSize"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SizeMedium"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SharesTankWith"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Bitterling"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SharesTankWith"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Catfish"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SharesTankWith"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#GiantSnakehead"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SharesTankWith"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Koi"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SharesTankWith"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Pike"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -530,7 +1514,79 @@ Size is SizeOf fish1, fish2, ...</Definition>
     <!-- http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#NeonTetra -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#NeonTetra">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Fish"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#FishSpecies"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HoursAfternoon"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HoursMorning"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#MonthFall"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#MonthSpring"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#MonthSummer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasHabitat"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#River"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasPrice"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#PriceLow"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasSize"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SizeSmall"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SharesTankWith"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Angelfish"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SharesTankWith"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Guppy"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SharesTankWith"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Killifish"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SharesTankWith"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#NeonTetra"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -538,7 +1594,103 @@ Size is SizeOf fish1, fish2, ...</Definition>
     <!-- http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Pike -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Pike">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Fish"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#FishSpecies"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HoursAfternoon"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HoursDawn"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HoursEvening"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HoursLateNight"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HoursMorning"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HoursNight"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#MonthFall"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#MonthWinter"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasHabitat"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#River"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasPrice"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#PriceMedium"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasSize"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SizeLarge"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SharesTankWith"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Bitterling"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SharesTankWith"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Catfish"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SharesTankWith"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#GiantSnakehead"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SharesTankWith"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Koi"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SharesTankWith"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Pike"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -546,7 +1698,73 @@ Size is SizeOf fish1, fish2, ...</Definition>
     <!-- http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Piranha -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Piranha">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Fish"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#FishSpecies"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HoursAfternoon"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HoursLateNight"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HoursMorning"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HoursNight"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#MonthFall"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#MonthSummer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasHabitat"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#River"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasPrice"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#PriceHigh"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasSize"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SizeSmall"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SharesTankWith"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Dorado"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SharesTankWith"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Piranha"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -562,7 +1780,73 @@ Size is SizeOf fish1, fish2, ...</Definition>
     <!-- http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#PondSmelt -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#PondSmelt">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Fish"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#FishSpecies"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HoursAfternoon"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HoursDawn"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HoursEvening"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HoursLateNight"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HoursMorning"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HoursNight"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#MonthWinter"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasHabitat"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#River"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasPrice"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#PriceLow"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasSize"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SizeSmall"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SharesTankWith"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#PondSmelt"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -616,7 +1900,109 @@ Size is SizeOf fish1, fish2, ...</Definition>
     <!-- http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Ray -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Ray">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Fish"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#FishSpecies"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HoursAfternoon"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HoursDawn"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HoursEvening"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HoursMorning"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HoursNight"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#MonthFall"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#MonthSummer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasHabitat"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Sea"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasPrice"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#PriceHigh"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasSize"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SizeLarge"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SharesTankWith"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Blowfish"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SharesTankWith"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Dab"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SharesTankWith"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Ray"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SharesTankWith"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#RedSnapper"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SharesTankWith"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SawShark"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SharesTankWith"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SeaBass"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SharesTankWith"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Seahorse"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -624,7 +2010,127 @@ Size is SizeOf fish1, fish2, ...</Definition>
     <!-- http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#RedSnapper -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#RedSnapper">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Fish"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#FishSpecies"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HoursAfternoon"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HoursDawn"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HoursEvening"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HoursLateNight"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HoursMorning"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HoursNight"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#MonthFall"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#MonthSpring"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#MonthSummer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#MonthWinter"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasHabitat"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Sea"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasPrice"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#PriceHigh"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasSize"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SizeMedium"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SharesTankWith"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Blowfish"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SharesTankWith"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Dab"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SharesTankWith"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Ray"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SharesTankWith"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#RedSnapper"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SharesTankWith"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SawShark"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SharesTankWith"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SeaBass"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SharesTankWith"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Seahorse"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -640,7 +2146,109 @@ Size is SizeOf fish1, fish2, ...</Definition>
     <!-- http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SawShark -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SawShark">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Fish"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#FishSpecies"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HoursDawn"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HoursEvening"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HoursLateNight"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HoursMorning"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HoursNight"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#MonthFall"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#MonthSummer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasHabitat"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Sea"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasPrice"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#PriceVeryHigh"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasSize"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SizeLarge"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SharesTankWith"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Blowfish"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SharesTankWith"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Dab"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SharesTankWith"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Ray"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SharesTankWith"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#RedSnapper"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SharesTankWith"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SawShark"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SharesTankWith"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SeaBass"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SharesTankWith"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Seahorse"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -656,7 +2264,127 @@ Size is SizeOf fish1, fish2, ...</Definition>
     <!-- http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SeaBass -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SeaBass">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Fish"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#FishSpecies"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HoursAfternoon"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HoursDawn"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HoursEvening"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HoursLateNight"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HoursMorning"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HoursNight"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#MonthFall"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#MonthSpring"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#MonthSummer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#MonthWinter"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasHabitat"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Sea"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasPrice"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#PriceVeryLow"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasSize"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SizeLarge"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SharesTankWith"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Blowfish"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SharesTankWith"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Dab"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SharesTankWith"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Ray"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SharesTankWith"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#RedSnapper"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SharesTankWith"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SawShark"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SharesTankWith"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SeaBass"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SharesTankWith"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Seahorse"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -664,7 +2392,121 @@ Size is SizeOf fish1, fish2, ...</Definition>
     <!-- http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Seahorse -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Seahorse">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Fish"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#FishSpecies"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HoursAfternoon"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HoursDawn"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HoursEvening"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HoursLateNight"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HoursMorning"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HoursNight"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#MonthFall"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#MonthSpring"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#MonthSummer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasHabitat"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Sea"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasPrice"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#PriceMedium"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasSize"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SizeSmall"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SharesTankWith"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Blowfish"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SharesTankWith"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Dab"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SharesTankWith"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Ray"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SharesTankWith"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#RedSnapper"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SharesTankWith"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SawShark"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SharesTankWith"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SeaBass"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SharesTankWith"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Seahorse"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -717,6 +2559,54 @@ Size is SizeOf fish1, fish2, ...</Definition>
 
     <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#TimeOfDay">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Time"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#TypeFreshwater -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#TypeFreshwater">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasHabitat"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Pond"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#River"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#FishType"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#TypeSeasonal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#TypeSeasonal">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#AvailableDuring"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:complementOf>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#MonthFall"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#MonthSpring"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#MonthSummer"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#MonthWinter"/>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:complementOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#FishType"/>
     </owl:Class>
     
 
