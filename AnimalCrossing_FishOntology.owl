@@ -1464,6 +1464,7 @@ Fish1 SharesTankWith fish2</Definition>
 
     <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#MonthFall">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Season"/>
+        <Definition>Fall is comprised of the months September, October, and November in the Northern hemisphere and March, April, and May in the Southern hemisphere.</Definition>
     </owl:Class>
     
 
@@ -1472,6 +1473,7 @@ Fish1 SharesTankWith fish2</Definition>
 
     <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#MonthSpring">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Season"/>
+        <Definition>Spring is comprised of the months March, April, and May in the Northern hemisphere and September, October, and November in the Southern hemisphere.</Definition>
     </owl:Class>
     
 
@@ -1480,6 +1482,7 @@ Fish1 SharesTankWith fish2</Definition>
 
     <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#MonthSummer">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Season"/>
+        <Definition>Summer is comprised of the months June, July, and August in the Northern hemisphere and December, January, and February in the Southern hemisphere.</Definition>
     </owl:Class>
     
 
@@ -1488,6 +1491,7 @@ Fish1 SharesTankWith fish2</Definition>
 
     <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#MonthWinter">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Season"/>
+        <Definition>Winter is comprised of the months December, January, and February in the Northern hemisphere and June, July, and August in the Southern hemisphere.</Definition>
     </owl:Class>
     
 
@@ -2748,13 +2752,18 @@ Fish1 SharesTankWith fish2</Definition>
 
     <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Season">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Time"/>
+        <Definition>Seasons in Animal Crossing are close to the seasons in real life, with a few caveats. In Animal Crossing, only one season is associated with a month. That means seasons will only change when the last day of the last month of the season is finished.
+
+In New Horizons, players can choose whether they are located in the Northern or Southern hemisphere. The months associated with each season will differ depending on that choice.</Definition>
     </owl:Class>
     
 
 
     <!-- http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Size -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Size"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Size">
+        <Definition>Fish in Animal Crossing appear as shadows in bodies of water and cannot be identified until after they are caught. The only discernable factor is the size of their shadow in the water. Fish are generally divided into 6 sizes of shadows (with some exceptions like eels).</Definition>
+    </owl:Class>
     
 
 
@@ -2762,6 +2771,7 @@ Fish1 SharesTankWith fish2</Definition>
 
     <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SizeLarge">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Size"/>
+        <Definition>Large sized fish are fish with the level 5 and level 6 shadow size.</Definition>
     </owl:Class>
     
 
@@ -2770,6 +2780,7 @@ Fish1 SharesTankWith fish2</Definition>
 
     <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SizeMedium">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Size"/>
+        <Definition>Medium sized fish are fish with the level 3 and level 4 shadow size.</Definition>
     </owl:Class>
     
 
@@ -2778,13 +2789,16 @@ Fish1 SharesTankWith fish2</Definition>
 
     <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SizeSmall">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Size"/>
+        <Definition>Small sized fish are fish with level 1 and level 2 shadow sizes.</Definition>
     </owl:Class>
     
 
 
     <!-- http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Time -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Time"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Time">
+        <Definition>Time in the Animal Crossing series closely matches the time used in the real world. The rate at which time passes is also 1 to 1 with time in the real world.</Definition>
+    </owl:Class>
     
 
 
@@ -2792,6 +2806,9 @@ Fish1 SharesTankWith fish2</Definition>
 
     <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#TimeOfDay">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Time"/>
+        <Definition>Days in the Animal Crossing series consist of 24 hours, just like real life. Time of day can effect villagers&apos; schedules, bugs and fish available, events, light levels, and more.
+
+There are no specific designations for blocks of time in the Animal Crossing series, but for representation they have been combined into six 4 hour blocks.</Definition>
     </owl:Class>
     
 
