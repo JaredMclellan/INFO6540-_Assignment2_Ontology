@@ -107,11 +107,11 @@ Fish HasSize size</Definition>
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#IsAvailableDuring">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Fish"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Time"/>
-        <Definition>AvailableDuring property shows the time a fish is available to catch in the game. This can either refer to the season or the time of day they are available. Every fish must be available during at least 1 season and at least 1 time of day.
+        <Definition>IsAvailableDuring property shows the time a fish is available to catch in the game. This can either refer to the season or the time of day they are available. Every fish must be available during at least 1 season and at least 1 time of day.
 
 Triplet example:
-Fish is AvailableDuring season1, season2, ...
-Fish is AvailableDuring timeOfDay1, timeOfDay2, ...</Definition>
+Fish IsAvailableDuring season1, season2, ...
+Fish IsAvailableDuring timeOfDay1, timeOfDay2, ...</Definition>
         <rdfs:isDefinedBy>JM</rdfs:isDefinedBy>
     </owl:ObjectProperty>
     
@@ -122,10 +122,10 @@ Fish is AvailableDuring timeOfDay1, timeOfDay2, ...</Definition>
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#IsHabitatOf">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Location"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Fish"/>
-        <Definition>HabitatOf property shows the fish available at a given location.
+        <Definition>IsHabitatOf property shows the fish available at a given location.
 
 Triplet example:
-Location is a HabitatOf fish1, fish2, ...</Definition>
+Location IsHabitatOf fish1, fish2, ...</Definition>
         <rdfs:isDefinedBy>JM</rdfs:isDefinedBy>
     </owl:ObjectProperty>
     
@@ -137,10 +137,10 @@ Location is a HabitatOf fish1, fish2, ...</Definition>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Price"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Fish"/>
-        <Definition>PriceOf property shows the fish that can be sold in a certain price range.
+        <Definition>IsPriceOf property shows the fish that can be sold in a certain price range.
 
 Triplet example:
-Price is the PriceOf fish1, fish2, ...</Definition>
+Price IsPriceOf fish1, fish2, ...</Definition>
         <rdfs:isDefinedBy>JM</rdfs:isDefinedBy>
     </owl:ObjectProperty>
     
@@ -152,10 +152,10 @@ Price is the PriceOf fish1, fish2, ...</Definition>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Size"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Fish"/>
-        <Definition>SizeOf property shows the fish that can be found at a given size. A fish species can be only one size, but multiple fish species can have the same size.
+        <Definition>IsSizeOf property shows the fish that can be found at a given size. A fish species can be only one size, but multiple fish species can have the same size.
 
 Triplet example:
-Size is SizeOf fish1, fish2, ...</Definition>
+Size IsSizeOf fish1, fish2, ...</Definition>
         <rdfs:isDefinedBy>JM</rdfs:isDefinedBy>
     </owl:ObjectProperty>
     
@@ -1456,7 +1456,11 @@ Fish1 SharesTankWith fish2</Definition>
 
     <!-- http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Location -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Location"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Location">
+        <Definition>On the island in Animal Crossing: New Horizons there are 3 different bodies of water. Bodies of water can only be of one main type. 
+
+Some bodies of water have more specific varities. These varities inherit the fish of their parent class, while also hosting unique features.</Definition>
+    </owl:Class>
     
 
 
@@ -1464,6 +1468,7 @@ Fish1 SharesTankWith fish2</Definition>
 
     <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#MonthFall">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Season"/>
+        <Definition>Fall is comprised of the months September, October, and November in the Northern hemisphere and March, April, and May in the Southern hemisphere.</Definition>
     </owl:Class>
     
 
@@ -1472,6 +1477,7 @@ Fish1 SharesTankWith fish2</Definition>
 
     <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#MonthSpring">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Season"/>
+        <Definition>Spring is comprised of the months March, April, and May in the Northern hemisphere and September, October, and November in the Southern hemisphere.</Definition>
     </owl:Class>
     
 
@@ -1480,6 +1486,7 @@ Fish1 SharesTankWith fish2</Definition>
 
     <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#MonthSummer">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Season"/>
+        <Definition>Summer is comprised of the months June, July, and August in the Northern hemisphere and December, January, and February in the Southern hemisphere.</Definition>
     </owl:Class>
     
 
@@ -1488,6 +1495,7 @@ Fish1 SharesTankWith fish2</Definition>
 
     <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#MonthWinter">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Season"/>
+        <Definition>Winter is comprised of the months December, January, and February in the Northern hemisphere and June, July, and August in the Southern hemisphere.</Definition>
     </owl:Class>
     
 
@@ -1778,6 +1786,16 @@ Fish1 SharesTankWith fish2</Definition>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Koi"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <Definition>Ponds are any body of water that does not eventually connect into the ocean.</Definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#PondAlpine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#PondAlpine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Pond"/>
+        <Definition>An alpine pond is a pond that is located on a cliff.</Definition>
     </owl:Class>
     
 
@@ -1858,7 +1876,9 @@ Fish1 SharesTankWith fish2</Definition>
 
     <!-- http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Price -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Price"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Price">
+        <Definition>Currency in the Animal Crossing series is represented as Bells. Bells are most frequently acquired by selling items to the island shop. Each item has a set price that it can be sold for. The rarity of the item typically (but not always) affects its price.</Definition>
+    </owl:Class>
     
 
 
@@ -1896,6 +1916,7 @@ Fish1 SharesTankWith fish2</Definition>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#RedSnapper"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <Definition>High priced items have a selling price between 2,500 to 4,999 Bells.</Definition>
     </owl:Class>
     
 
@@ -1934,6 +1955,7 @@ Fish1 SharesTankWith fish2</Definition>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#PondSmelt"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <Definition>Low priced items have a selling price between 500 and 999 Bells.</Definition>
     </owl:Class>
     
 
@@ -1960,6 +1982,7 @@ Fish1 SharesTankWith fish2</Definition>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Seahorse"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <Definition>Medium priced items have a selling price between 1,000 and 2,499 Bells.</Definition>
     </owl:Class>
     
 
@@ -1992,6 +2015,7 @@ Fish1 SharesTankWith fish2</Definition>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SawShark"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <Definition>Very high priced items have a selling price over 5,000 Bells.</Definition>
     </owl:Class>
     
 
@@ -2024,6 +2048,7 @@ Fish1 SharesTankWith fish2</Definition>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SeaBass"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <Definition>Very low priced items have a selling price under 499 Bells.</Definition>
     </owl:Class>
     
 
@@ -2324,6 +2349,25 @@ Fish1 SharesTankWith fish2</Definition>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#PondSmelt"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <Definition>A river is a body of water on the island that eventually leads into the sea.</Definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#RiverAlpine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#RiverAlpine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#River"/>
+        <Definition>An apline river is a river located on a cliff.</Definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#RiverMouth -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#RiverMouth">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#River"/>
+        <Definition>The river mouth is the area where the river leads into the sea, but is still located on the island itself. It is the river water after it hits the beach, but before it passes the sand on the beach.</Definition>
     </owl:Class>
     
 
@@ -2490,6 +2534,7 @@ Fish1 SharesTankWith fish2</Definition>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Seahorse"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <Definition>The sea is the water surrounding the entire island. The sea is the water past the sand on the beach.</Definition>
     </owl:Class>
     
 
@@ -2748,13 +2793,18 @@ Fish1 SharesTankWith fish2</Definition>
 
     <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Season">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Time"/>
+        <Definition>Seasons in Animal Crossing are close to the seasons in real life, with a few caveats. In Animal Crossing, only one season is associated with a month. That means seasons will only change when the last day of the last month of the season is finished.
+
+In New Horizons, players can choose whether they are located in the Northern or Southern hemisphere. The months associated with each season will differ depending on that choice. Fish and bug availability will also change to match the season.</Definition>
     </owl:Class>
     
 
 
     <!-- http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Size -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Size"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Size">
+        <Definition>Fish in Animal Crossing appear as shadows in bodies of water and cannot be identified until after they are caught. The only discernable factor is the size of their shadow in the water. Fish are generally divided into 6 sizes of shadows (with some exceptions like eels).</Definition>
+    </owl:Class>
     
 
 
@@ -2762,6 +2812,7 @@ Fish1 SharesTankWith fish2</Definition>
 
     <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SizeLarge">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Size"/>
+        <Definition>Large sized fish are fish with the level 5 and level 6 shadow size.</Definition>
     </owl:Class>
     
 
@@ -2770,6 +2821,7 @@ Fish1 SharesTankWith fish2</Definition>
 
     <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SizeMedium">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Size"/>
+        <Definition>Medium sized fish are fish with the level 3 and level 4 shadow size.</Definition>
     </owl:Class>
     
 
@@ -2778,13 +2830,16 @@ Fish1 SharesTankWith fish2</Definition>
 
     <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SizeSmall">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Size"/>
+        <Definition>Small sized fish are fish with level 1 and level 2 shadow sizes.</Definition>
     </owl:Class>
     
 
 
     <!-- http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Time -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Time"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Time">
+        <Definition>Time in the Animal Crossing series closely matches the time used in the real world. The rate at which time passes is also 1 to 1 with time in the real world.</Definition>
+    </owl:Class>
     
 
 
@@ -2792,6 +2847,9 @@ Fish1 SharesTankWith fish2</Definition>
 
     <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#TimeOfDay">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Time"/>
+        <Definition>Days in the Animal Crossing series consist of 24 hours, just like real life. Time of day can effect villagers&apos; schedules, bugs and fish available, events, light levels, and more.
+
+There are no specific designations for blocks of time in the Animal Crossing series, but for representation they have been combined into six 4 hour blocks.</Definition>
     </owl:Class>
     
 
