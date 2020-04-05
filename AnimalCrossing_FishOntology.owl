@@ -28,6 +28,12 @@
     
 
 
+    <!-- http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#GameData -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#GameData"/>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -283,6 +289,15 @@ Fish1 SharesTankWith fish2</Definition>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#NeonTetra"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <GameData>Seasonality (N): May to October
+Seasonality (S): November to April
+Time of Day: 4 PM to 9 AM
+Size: 2
+Price: 3,000
+Location: River</GameData>
+        <rdfs:seeAlso>https://animalcrossing.fandom.com/wiki/Angelfish
+
+https://en.wikipedia.org/wiki/Rhodeus</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -393,6 +408,18 @@ Fish1 SharesTankWith fish2</Definition>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Pike"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <Definition>The bitterling is a tiny fish, available for most of the winter and parts of the fall and spring.</Definition>
+        <GameData>Seasonality (N): November-March
+Seasonality (S): May-September
+Time of Day: All day
+Size: 1
+Price: 900
+Location: River</GameData>
+        <rdfs:isDefinedBy>In-game data from Animal Crossing: New Horizons
+Comment from J.M.</rdfs:isDefinedBy>
+        <rdfs:seeAlso>https://animalcrossing.fandom.com/wiki/Bitterling
+
+https://en.wikipedia.org/wiki/Rhodeus</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -491,6 +518,12 @@ Fish1 SharesTankWith fish2</Definition>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Seahorse"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <GameData>Seasonality (N): November to February
+Seasonality (S): May to August
+Time of Day: 9 PM to 4 AM
+Size: 3
+Price: 5,000
+Location: Sea</GameData>
     </owl:Class>
     
 
@@ -595,6 +628,12 @@ Fish1 SharesTankWith fish2</Definition>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Pike"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <GameData>Seasonality (N): May to October
+Seasonality (S): November to April
+Time of Day: 4 PM to 9 AM
+Size: 4
+Price: 800
+Location: Pond</GameData>
     </owl:Class>
     
 
@@ -675,6 +714,24 @@ Fish1 SharesTankWith fish2</Definition>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#MonthSummer"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SharesTankWith"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#CherrySalmon"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SharesTankWith"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#GoldenTrout"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <GameData>Seasonality (N): March to June, September to November
+Seasonality (S): September to December, March to May
+Time of Day: 4 PM to 9 AM
+Size: 3
+Price: 1,000
+Location: River (Clifftop), Pond (Clifftop)</GameData>
     </owl:Class>
     
 
@@ -761,6 +818,12 @@ Fish1 SharesTankWith fish2</Definition>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Clownfish"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <GameData>Seasonality (N): April to September
+Seasonality (S): October to March
+Time of Day: All day
+Size: 1
+Price: 650
+Location: Sea</GameData>
     </owl:Class>
     
 
@@ -883,6 +946,12 @@ Fish1 SharesTankWith fish2</Definition>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Seahorse"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <GameData>Seasonality (N): October to April
+Seasonality (S): April to October
+Time of Day: All day
+Size: 3
+Price: 300
+Location: Sea</GameData>
     </owl:Class>
     
 
@@ -969,6 +1038,12 @@ Fish1 SharesTankWith fish2</Definition>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Dace"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <GameData>Seasonality (N): All year
+Seasonality (S): All year
+Time of Day: 4 PM to 9 AM
+Size: 3
+Price: 240
+Location: River</GameData>
     </owl:Class>
     
 
@@ -1049,6 +1124,12 @@ Fish1 SharesTankWith fish2</Definition>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Piranha"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <GameData>Seasonality (N): June to September
+Seasonality (S): December to March
+Time of Day: 4 AM to 9 PM
+Size: 5
+Price: 15,000
+Location: River</GameData>
     </owl:Class>
     
 
@@ -1182,6 +1263,12 @@ Fish1 SharesTankWith fish2</Definition>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Pike"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <GameData>Seasonality (N): June to August
+Seasonality (S): December to February
+Time of Day: 9 AM to 4 PM
+Size: 5
+Price: 5,500
+Location: Pond</GameData>
     </owl:Class>
     
 
@@ -1250,6 +1337,24 @@ Fish1 SharesTankWith fish2</Definition>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#MonthSpring"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SharesTankWith"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#CherrySalmon"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SharesTankWith"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#GoldenTrout"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <GameData>Seasonality (N): March to May, September to November
+Seasonality (S): March to May, September to November
+Time of Day: 4 PM to 9 AM
+Size: 3
+Price: 15,000
+Location: River (Clifftop)</GameData>
     </owl:Class>
     
 
@@ -1330,6 +1435,12 @@ Fish1 SharesTankWith fish2</Definition>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#NeonTetra"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <GameData>Seasonality (N): April to November
+Seasonality (S): October to May
+Time of Day: 9 AM to 4 PM
+Size: 1
+Price: 1,300
+Location: River</GameData>
     </owl:Class>
     
 
@@ -2196,6 +2307,12 @@ Fish1 SharesTankWith fish2</Definition>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#NeonTetra"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <GameData>Seasonality (N): April to August
+Seasonality (S): October to February
+Time of Day: All day
+Size: 1
+Price: 300
+Location: Pond</GameData>
     </owl:Class>
     
 
@@ -2264,6 +2381,24 @@ Fish1 SharesTankWith fish2</Definition>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#MonthFall"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SharesTankWith"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#KingSalmon"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SharesTankWith"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#PondSmelt"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <GameData>Seasonality (N): September
+Seasonality (S): March
+Time of Day: All day
+Size: 6
+Price: 1,800
+Location: River (Mouth)</GameData>
     </owl:Class>
     
 
@@ -2374,6 +2509,12 @@ Fish1 SharesTankWith fish2</Definition>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Pike"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <GameData>Seasonality (N): All year
+Seasonality (S): All year
+Time of Day: 4 PM to 9 AM
+Size: 4
+Price: 4,000
+Location: Pond</GameData>
     </owl:Class>
     
 
@@ -2872,6 +3013,12 @@ Some bodies of water have more specific varities. These varities inherit the fis
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#NeonTetra"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <GameData>Seasonality (N): April to November
+Seasonality (S): October to May
+Time of Day: 9 AM to 4 PM
+Size: 1
+Price: 500
+Location: River</GameData>
     </owl:Class>
     
 
@@ -2976,6 +3123,12 @@ Some bodies of water have more specific varities. These varities inherit the fis
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Pike"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <GameData>Seasonality (N): September to December
+Seasonality (S): March to June
+Time of Day: All day
+Size: 5
+Price: 1,800
+Location: River</GameData>
     </owl:Class>
     
 
@@ -3050,6 +3203,12 @@ Some bodies of water have more specific varities. These varities inherit the fis
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Piranha"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <GameData>Seasonality (N): June to September
+Seasonality (S): December to March
+Time of Day: 9 AM to 4 PM, 9 PM to 4 AM
+Size: 2
+Price: 2,500
+Location: River</GameData>
     </owl:Class>
     
 
@@ -3169,9 +3328,21 @@ Some bodies of water have more specific varities. These varities inherit the fis
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SharesTankWith"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#KingSalmon"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SharesTankWith"/>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#PondSmelt"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <GameData>Seasonality (N): December to February
+Seasonality (S): June to August
+Time of Day: All day
+Size: 2
+Price: 500
+Location: River</GameData>
     </owl:Class>
     
 
@@ -3479,6 +3650,12 @@ Some bodies of water have more specific varities. These varities inherit the fis
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Seahorse"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <GameData>Seasonality (N): August to November
+Seasonality (S): February to May
+Time of Day: 4 AM to 9 PM
+Size: 5
+Price: 3,000
+Location: Sea</GameData>
     </owl:Class>
     
 
@@ -3607,6 +3784,12 @@ Some bodies of water have more specific varities. These varities inherit the fis
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Seahorse"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <GameData>Seasonality (N): All year
+Seasonality (S): All year
+Time of Day: All day
+Size: 4
+Price: 3,000
+Location: Sea</GameData>
     </owl:Class>
     
 
@@ -3816,6 +3999,12 @@ Some bodies of water have more specific varities. These varities inherit the fis
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Seahorse"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <GameData>Seasonality (N): June to September
+Seasonality (S): December to March
+Time of Day: 4 PM to 9 AM
+Size: 6
+Price: 12,000
+Location: Sea</GameData>
     </owl:Class>
     
 
@@ -4001,6 +4190,12 @@ Some bodies of water have more specific varities. These varities inherit the fis
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Seahorse"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <GameData>Seasonality (N): All year
+Seasonality (S): All year
+Time of Day: All day
+Size: 5
+Price: 400
+Location: Sea</GameData>
     </owl:Class>
     
 
@@ -4123,6 +4318,12 @@ Some bodies of water have more specific varities. These varities inherit the fis
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Seahorse"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <GameData>Seasonality (N): April to November
+Seasonality (S): October to May
+Time of Day: All day
+Size: 1
+Price: 1,100
+Location: Sea</GameData>
     </owl:Class>
     
 
