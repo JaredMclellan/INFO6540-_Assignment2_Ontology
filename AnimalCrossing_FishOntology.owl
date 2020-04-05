@@ -528,6 +528,104 @@ Location: Sea</GameData>
     
 
 
+    <!-- http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#BlueMarlin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#BlueMarlin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#FishSpecies"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasHabitat"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Pier"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasPrice"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#PriceVeryHigh"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasSize"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SizeLarge"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#IsAvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HoursAfternoon"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#IsAvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HoursDawn"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#IsAvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HoursEvening"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#IsAvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HoursLateNight"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#IsAvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HoursMorning"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#IsAvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HoursNight"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#IsAvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#MonthFall"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#IsAvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#MonthSpring"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#IsAvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#MonthSummer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#IsAvailableDuring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#MonthWinter"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SharesTankWith"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#BlueMarlin"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <GameData>Seasonality (N): November to April, July to September
+Seasonality (S): January to March, May to October
+Time of Day: All day
+Size: 6
+Price: 10,000
+Location: Sea (Pier)</GameData>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Catfish -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Catfish">
@@ -1458,6 +1556,12 @@ Location: River</GameData>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasAvailable"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#BlueMarlin"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasAvailable"/>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Clownfish"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -1565,6 +1669,12 @@ Location: River</GameData>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasAvailable"/>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Bitterling"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasAvailable"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#BlueMarlin"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1700,6 +1810,12 @@ Location: River</GameData>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasAvailable"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#BlueMarlin"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasAvailable"/>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Catfish"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -1830,6 +1946,12 @@ Location: River</GameData>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasAvailable"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#BlueMarlin"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasAvailable"/>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Catfish"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -1943,6 +2065,12 @@ Location: River</GameData>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasAvailable"/>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Bitterling"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasAvailable"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#BlueMarlin"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -2097,6 +2225,12 @@ Location: River</GameData>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasAvailable"/>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Blowfish"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasAvailable"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#BlueMarlin"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -2554,6 +2688,12 @@ Some bodies of water have more specific varities. These varities inherit the fis
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasAvailable"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#BlueMarlin"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasAvailable"/>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Catfish"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -2683,6 +2823,12 @@ Some bodies of water have more specific varities. These varities inherit the fis
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasAvailable"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#BlueMarlin"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasAvailable"/>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Catfish"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -2771,6 +2917,12 @@ Some bodies of water have more specific varities. These varities inherit the fis
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasAvailable"/>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Angelfish"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasAvailable"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#BlueMarlin"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -2888,6 +3040,12 @@ Some bodies of water have more specific varities. These varities inherit the fis
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasAvailable"/>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Blowfish"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasAvailable"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#BlueMarlin"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -3019,6 +3177,21 @@ Time of Day: 9 AM to 4 PM
 Size: 1
 Price: 500
 Location: River</GameData>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Pier -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Pier">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Sea"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#IsHabitatOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#BlueMarlin"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <Definition>Each island comes with a pier on the beach that juts out over the sea. The pier area is defined by any section of the sea water that is within a fishing rod cast from the pier.</Definition>
     </owl:Class>
     
 
@@ -3480,6 +3653,12 @@ Location: River</GameData>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#IsPriceOf"/>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Blowfish"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#IsPriceOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#BlueMarlin"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -4351,6 +4530,12 @@ In New Horizons, players can choose whether they are located in the Northern or 
 
     <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SizeLarge">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Size"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#IsSizeOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#BlueMarlin"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#IsSizeOf"/>
