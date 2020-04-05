@@ -3082,7 +3082,7 @@ Some bodies of water have more specific varities. These varities inherit the fis
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Koi"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <Definition>Ponds are any body of water that does not eventually connect into the ocean.</Definition>
+        <Definition>Ponds are any body of water that does not connect to a waterfall or the ocean.</Definition>
     </owl:Class>
     
 
@@ -3669,7 +3669,7 @@ Some bodies of water have more specific varities. These varities inherit the fis
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#PondSmelt"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <Definition>A river is a body of water on the island that eventually leads into the sea.</Definition>
+        <Definition>A river is a body of water on the island that connects to a waterfall or leads into the sea.</Definition>
     </owl:Class>
     
 
