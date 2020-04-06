@@ -8,7 +8,9 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
     <owl:Ontology rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10">
+        <rdfs:comment>This ontology is available from https://github.com/JaredMclellan/INFO6540_Assignment2_Ontology</rdfs:comment>
         <License>GNU General Public License v3.0</License>
+        <owl:versionInfo>1.0.0 - Contains a sampling of fishes from the game Animal Crossing: New Horizons. This selection does not represent all fishes in the game, but does show a subsection from multiple categories</owl:versionInfo>
         <rdfs:comment>This ontology is based around the fish and aquatic creatures available to catch in Animal Crossing: New Horizons (2020) on the Nintendo Switch. This ontology connects fish species with their attributes and qualities.</rdfs:comment>
         <Creator>Jared McLellan</Creator>
     </owl:Ontology>
@@ -1292,6 +1294,8 @@ GameData: Animal Crossing: New Horizons (2020), collected from https://animalcro
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Fish"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <Definition>Fish (and other aquatic organisms) are creatures captured in bodies of water by a fishing rod in Animal Crossing: New Horizon. Fish observed are listed in the Critterpedia and able to be donated to the museum. This does not include garbage, while they are catchable by fishing rods they do not exist in the Critterpedia and cannot be donated to the museum.</Definition>
+        <rdfs:isDefinedBy>J.M.</rdfs:isDefinedBy>
     </owl:Class>
     
 
@@ -1300,6 +1304,8 @@ GameData: Animal Crossing: New Horizons (2020), collected from https://animalcro
 
     <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#FishSpecies">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Fish"/>
+        <Definition>Fish species are the different types of fish (or other aquatic organisms) that can be caught in Animal Crossing: New Horizons. A fish species has a set price, size, location, shadow size, and aquarium tank that does not differ from other members of the same species.</Definition>
+        <rdfs:isDefinedBy>J.M.</rdfs:isDefinedBy>
     </owl:Class>
     
 
@@ -2339,7 +2345,13 @@ GameData: Animal Crossing: New Horizons (2020), collected from https://animalcro
     <!-- http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Location -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Location">
-        <Definition>On the island in Animal Crossing: New Horizons there are 3 different bodies of water. Bodies of water can only be of one main type. 
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#IsHabitatOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#FishSpecies"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <Definition>Location specifically refers to an aquatic environment. On the island in Animal Crossing: New Horizons there are 3 different bodies of water. Bodies of water can only be of one main type. 
 
 Some bodies of water have more specific varities. These varities inherit the fish of their parent class, while also hosting unique features.</Definition>
     </owl:Class>
@@ -2465,6 +2477,7 @@ Some bodies of water have more specific varities. These varities inherit the fis
             </owl:Restriction>
         </rdfs:subClassOf>
         <Definition>Fall is comprised of the months September, October, and November in the Northern hemisphere and March, April, and May in the Southern hemisphere.</Definition>
+        <rdfs:isDefinedBy>J.M.</rdfs:isDefinedBy>
     </owl:Class>
     
 
@@ -2558,6 +2571,7 @@ Some bodies of water have more specific varities. These varities inherit the fis
             </owl:Restriction>
         </rdfs:subClassOf>
         <Definition>Spring is comprised of the months March, April, and May in the Northern hemisphere and September, October, and November in the Southern hemisphere.</Definition>
+        <rdfs:isDefinedBy>J.M.</rdfs:isDefinedBy>
     </owl:Class>
     
 
@@ -2657,6 +2671,7 @@ Some bodies of water have more specific varities. These varities inherit the fis
             </owl:Restriction>
         </rdfs:subClassOf>
         <Definition>Summer is comprised of the months June, July, and August in the Northern hemisphere and December, January, and February in the Southern hemisphere.</Definition>
+        <rdfs:isDefinedBy>J.M.</rdfs:isDefinedBy>
     </owl:Class>
     
 
@@ -2714,6 +2729,7 @@ Some bodies of water have more specific varities. These varities inherit the fis
             </owl:Restriction>
         </rdfs:subClassOf>
         <Definition>Winter is comprised of the months December, January, and February in the Northern hemisphere and June, July, and August in the Southern hemisphere.</Definition>
+        <rdfs:isDefinedBy>J.M.</rdfs:isDefinedBy>
     </owl:Class>
     
 
@@ -2942,7 +2958,14 @@ GameData: Animal Crossing: New Horizons (2020), collected from https://animalcro
     <!-- http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Price -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Price">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#IsPriceOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#FishSpecies"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <Definition>Currency in the Animal Crossing series is represented as Bells. Bells are most frequently acquired by selling items to the island shop. Each item has a set price that it can be sold for. The rarity of the item typically (but not always) affects its price.</Definition>
+        <rdfs:isDefinedBy>J.M.</rdfs:isDefinedBy>
     </owl:Class>
     
 
@@ -2982,6 +3005,7 @@ GameData: Animal Crossing: New Horizons (2020), collected from https://animalcro
             </owl:Restriction>
         </rdfs:subClassOf>
         <Definition>High priced items have a selling price between 2,500 to 4,999 Bells.</Definition>
+        <rdfs:isDefinedBy>J.M.</rdfs:isDefinedBy>
     </owl:Class>
     
 
@@ -3015,6 +3039,7 @@ GameData: Animal Crossing: New Horizons (2020), collected from https://animalcro
             </owl:Restriction>
         </rdfs:subClassOf>
         <Definition>Low priced items have a selling price between 500 and 999 Bells.</Definition>
+        <rdfs:isDefinedBy>J.M.</rdfs:isDefinedBy>
     </owl:Class>
     
 
@@ -3042,6 +3067,7 @@ GameData: Animal Crossing: New Horizons (2020), collected from https://animalcro
             </owl:Restriction>
         </rdfs:subClassOf>
         <Definition>Medium priced items have a selling price between 1,000 and 2,499 Bells.</Definition>
+        <rdfs:isDefinedBy>J.M.</rdfs:isDefinedBy>
     </owl:Class>
     
 
@@ -3081,6 +3107,7 @@ GameData: Animal Crossing: New Horizons (2020), collected from https://animalcro
             </owl:Restriction>
         </rdfs:subClassOf>
         <Definition>Very high priced items have a selling price over 5,000 Bells.</Definition>
+        <rdfs:isDefinedBy>J.M.</rdfs:isDefinedBy>
     </owl:Class>
     
 
@@ -3108,6 +3135,7 @@ GameData: Animal Crossing: New Horizons (2020), collected from https://animalcro
             </owl:Restriction>
         </rdfs:subClassOf>
         <Definition>Very low priced items have a selling price under 499 Bells.</Definition>
+        <rdfs:isDefinedBy>J.M.</rdfs:isDefinedBy>
     </owl:Class>
     
 
@@ -3759,6 +3787,7 @@ GameData: Animal Crossing: New Horizons (2020), collected from https://animalcro
         <Definition>Seasons in Animal Crossing are close to the seasons in real life, with a few caveats. In Animal Crossing, only one season is associated with a month. That means seasons will only change when the last day of the last month of the season is finished.
 
 In New Horizons, players can choose whether they are located in the Northern or Southern hemisphere. The months associated with each season will differ depending on that choice. Fish and bug availability will also change to match the season.</Definition>
+        <rdfs:isDefinedBy>J.M.</rdfs:isDefinedBy>
     </owl:Class>
     
 
@@ -3766,7 +3795,14 @@ In New Horizons, players can choose whether they are located in the Northern or 
     <!-- http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Size -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Size">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#IsSizeOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#FishSpecies"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <Definition>Fish in Animal Crossing appear as shadows in bodies of water and cannot be identified until after they are caught. The only discernable factor is the size of their shadow in the water. Fish are generally divided into 6 sizes of shadows (with some exceptions like eels).</Definition>
+        <rdfs:isDefinedBy>J.M.</rdfs:isDefinedBy>
     </owl:Class>
     
 
@@ -3812,6 +3848,7 @@ In New Horizons, players can choose whether they are located in the Northern or 
             </owl:Restriction>
         </rdfs:subClassOf>
         <Definition>Large sized fish are fish with the level 5 and level 6 shadow size.</Definition>
+        <rdfs:isDefinedBy>J.M.</rdfs:isDefinedBy>
     </owl:Class>
     
 
@@ -3869,6 +3906,7 @@ In New Horizons, players can choose whether they are located in the Northern or 
             </owl:Restriction>
         </rdfs:subClassOf>
         <Definition>Medium sized fish are fish with the level 3 and level 4 shadow size.</Definition>
+        <rdfs:isDefinedBy>J.M.</rdfs:isDefinedBy>
     </owl:Class>
     
 
@@ -3914,6 +3952,7 @@ In New Horizons, players can choose whether they are located in the Northern or 
             </owl:Restriction>
         </rdfs:subClassOf>
         <Definition>Small sized fish are fish with level 1 and level 2 shadow sizes.</Definition>
+        <rdfs:isDefinedBy>J.M.</rdfs:isDefinedBy>
     </owl:Class>
     
 
@@ -3921,7 +3960,14 @@ In New Horizons, players can choose whether they are located in the Northern or 
     <!-- http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Time -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Time">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasAvailable"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#FishSpecies"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <Definition>Time in the Animal Crossing series closely matches the time used in the real world. The rate at which time passes is also 1 to 1 with time in the real world.</Definition>
+        <rdfs:isDefinedBy>J.M.</rdfs:isDefinedBy>
     </owl:Class>
     
 
@@ -3933,6 +3979,7 @@ In New Horizons, players can choose whether they are located in the Northern or 
         <Definition>Days in the Animal Crossing series consist of 24 hours, just like real life. Time of day can effect villagers&apos; schedules, bugs and fish available, events, light levels, and more.
 
 There are no specific designations for blocks of time in the Animal Crossing series, but for representation they have been combined into six 4 hour blocks.</Definition>
+        <rdfs:isDefinedBy>J.M.</rdfs:isDefinedBy>
     </owl:Class>
     
 
@@ -3954,33 +4001,8 @@ There are no specific designations for blocks of time in the Animal Crossing ser
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#FishType"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#TypeSeasonal -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#TypeSeasonal">
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#IsAvailableDuring"/>
-                <owl:someValuesFrom>
-                    <owl:Class>
-                        <owl:complementOf>
-                            <owl:Class>
-                                <owl:intersectionOf rdf:parseType="Collection">
-                                    <rdf:Description rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#MonthFall"/>
-                                    <rdf:Description rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#MonthSpring"/>
-                                    <rdf:Description rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#MonthSummer"/>
-                                    <rdf:Description rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#MonthWinter"/>
-                                </owl:intersectionOf>
-                            </owl:Class>
-                        </owl:complementOf>
-                    </owl:Class>
-                </owl:someValuesFrom>
-            </owl:Restriction>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#FishType"/>
+        <Definition>Freshwater fish are located in either ponds or rivers.</Definition>
+        <rdfs:isDefinedBy>J.M.</rdfs:isDefinedBy>
     </owl:Class>
     
 
@@ -3993,6 +4015,31 @@ There are no specific designations for blocks of time in the Animal Crossing ser
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Angelfish"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Bitterling"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Blowfish"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#BlueMarlin"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Catfish"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#CherrySalmon"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Clownfish"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Dab"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Dace"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Dorado"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#GiantSnakehead"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#GoldenTrout"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#KingSalmon"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Koi"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#NeonTetra"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Piranha"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Ray"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#RedSnapper"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SeaBass"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Seahorse"/>
+        </owl:members>
+    </rdf:Description>
     <rdf:Description>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
         <owl:members rdf:parseType="Collection">
