@@ -495,12 +495,17 @@ GameData: Animal Crossing: New Horizons (2020), collected from https://animalcro
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Seahorse"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <Definition>While blowfish can refer to any number of species in the puffer family (Tetraodontidae), this version  is a representation as the Japaenese puffer (Takifugu rubripes). Like some other puffers, the Japanese puffer is highly toxic. The Japanese puffer is notable for having a very small and fully sequenced genome.</Definition>
         <GameData>Seasonality (N): November to February
 Seasonality (S): May to August
 Time of Day: 9 PM to 4 AM
 Size: 3
 Price: 5,000
 Location: Sea</GameData>
+        <rdfs:isDefinedBy>Definition: J.M., with information from https://en.wikipedia.org/wiki/Takifugu_rubripes
+
+GameData: Animal Crossing: New Horizons (2020), collected from https://animalcrossing.fandom.com/wiki/Fish_(New_Horizons)</rdfs:isDefinedBy>
+        <rdfs:seeAlso>https://animalcrossing.fandom.com/wiki/Blowfish</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -593,12 +598,17 @@ Location: Sea</GameData>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#BlueMarlin"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <Definition>The blue marlins (Makaira nigricans and Makaira mazara) is well known for its elongated bill, resembling a rapier or sword. The blue marlin uses its bill to maim or kill prey by knifing motions. Marlin, although threatened, is a commercially valuable fish due to its high fat content.</Definition>
         <GameData>Seasonality (N): November to April, July to September
 Seasonality (S): January to March, May to October
 Time of Day: All day
 Size: 6
 Price: 10,000
 Location: Sea (Pier)</GameData>
+        <rdfs:isDefinedBy>Definition: J.M., with information from https://en.wikipedia.org/wiki/Atlantic_blue_marlin
+
+GameData: Animal Crossing: New Horizons (2020), collected from https://animalcrossing.fandom.com/wiki/Fish_(New_Horizons)</rdfs:isDefinedBy>
+        <rdfs:seeAlso>https://animalcrossing.fandom.com/wiki/Blue_marlin</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -697,12 +707,17 @@ Location: Sea (Pier)</GameData>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Koi"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <Definition>Catfish are an order of fishes (Siluriformes) named for their barbels, which bear resemblance to cat whiskers. Although barbels often play a prominent component of catfish imagery, not all catfish possess them. Catfish have one of the greatest ranges of sizes between each species in fish. The smallest can reach sexual maturity at 1 cm while the larger species have been known to exceed 2.5m.</Definition>
         <GameData>Seasonality (N): May to October
 Seasonality (S): November to April
 Time of Day: 4 PM to 9 AM
 Size: 4
 Price: 800
 Location: Pond</GameData>
+        <rdfs:isDefinedBy>Definition: J.M., with information from https://en.wikipedia.org/wiki/Catfish
+
+GameData: Animal Crossing: New Horizons (2020), collected from https://animalcrossing.fandom.com/wiki/Fish_(New_Horizons)</rdfs:isDefinedBy>
+        <rdfs:seeAlso>https://animalcrossing.fandom.com/wiki/Catfish</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -795,12 +810,17 @@ Location: Pond</GameData>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#GoldenTrout"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <Definition>The cherry salmon (Oncorhynchus masou) is a species of salmon found in the northern Pacific Ocean along the coasts of Asia. The cherry salmon, like other members of the salmonids, are an anadromous species and spend part of their life in the ocean before returning to rivers to breed. A few subspecies of cherry salmon exist, including some that are completely land-locked.</Definition>
         <GameData>Seasonality (N): March to June, September to November
 Seasonality (S): September to December, March to May
 Time of Day: 4 PM to 9 AM
 Size: 3
 Price: 1,000
 Location: River (Clifftop), Pond (Clifftop)</GameData>
+        <rdfs:isDefinedBy>Definition: J.M., with information from https://en.wikipedia.org/wiki/https://en.wikipedia.org/wiki/Oncorhynchus_masou
+
+GameData: Animal Crossing: New Horizons (2020), collected from https://animalcrossing.fandom.com/wiki/Fish_(New_Horizons)</rdfs:isDefinedBy>
+        <rdfs:seeAlso>https://animalcrossing.fandom.com/wiki/Cherry_salmon</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -887,12 +907,17 @@ Location: River (Clifftop), Pond (Clifftop)</GameData>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Clownfish"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <Definition>The clownfish (Amphiprioninae) are typically recognized for their notable colouration.  Usually possessing a yellow, red, black, or orange body with white bars or patches. Clownfish are also known for the symbiotic relationship with sea anenomes. The anenome provides the clownfish with protection from predators and the clownfish takes care of the anenome&apos;s parasites.</Definition>
         <GameData>Seasonality (N): April to September
 Seasonality (S): October to March
 Time of Day: All day
 Size: 1
 Price: 650
 Location: Sea</GameData>
+        <rdfs:isDefinedBy>Definition: J.M., with information from https://en.wikipedia.org/wiki/Amphiprioninae
+
+GameData: Animal Crossing: New Horizons (2020), collected from https://animalcrossing.fandom.com/wiki/Fish_(New_Horizons)</rdfs:isDefinedBy>
+        <rdfs:seeAlso>https://animalcrossing.fandom.com/wiki/Clownfish</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -1009,12 +1034,17 @@ Location: Sea</GameData>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Seahorse"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <Definition>The common dab (Limanda limanda) is a commercially fished flatfishes. The flatfish are a latterally compressed group of fishes that live along the sea floor. The dab is a part of the right-eyed flounders (Pleuronectidae) named as their eyes are located on the right side of their body. The flatfish resemble a typical fish morphology as young, before the eyes migrate to one side of the body during development.</Definition>
         <GameData>Seasonality (N): October to April
 Seasonality (S): April to October
 Time of Day: All day
 Size: 3
 Price: 300
 Location: Sea</GameData>
+        <rdfs:isDefinedBy>Definition: J.M., with information from https://en.wikipedia.org/wiki/Common_dab and https://en.wikipedia.org/wiki/Pleuronectidae
+
+GameData: Animal Crossing: New Horizons (2020), collected from https://animalcrossing.fandom.com/wiki/Fish_(New_Horizons)</rdfs:isDefinedBy>
+        <rdfs:seeAlso>https://animalcrossing.fandom.com/wiki/Dab</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -1107,6 +1137,7 @@ Time of Day: 4 PM to 9 AM
 Size: 3
 Price: 240
 Location: River</GameData>
+        <rdfs:seeAlso>https://animalcrossing.fandom.com/wiki/Dace</rdfs:seeAlso>
     </owl:Class>
     
 
