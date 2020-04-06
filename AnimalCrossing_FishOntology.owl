@@ -1218,12 +1218,17 @@ Location: River</GameData>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Piranha"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <Definition>The dorado (Salminus brasiliensis) is a gold coloured fish named after the Spanish legend of El Dorado (&quot;The Golden One&quot;) . The dorado can be found in the freshwater rivers of South America where it is the apex predator of the ecosysteme. It has no relation with the marine fish with the same name.</Definition>
         <GameData>Seasonality (N): June to September
 Seasonality (S): December to March
 Time of Day: 4 AM to 9 PM
 Size: 5
 Price: 15,000
 Location: River</GameData>
+        <rdfs:isDefinedBy>Definition: J.M., with information from https://en.wikipedia.org/wiki/Rhodeus
+
+GameData: Animal Crossing: New Horizons (2020), collected from https://animalcrossing.fandom.com/wiki/Fish_(New_Horizons)</rdfs:isDefinedBy>
+        <rdfs:seeAlso>https://animalcrossing.fandom.com/wiki/Dorado</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -1351,12 +1356,17 @@ Location: River</GameData>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Koi"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <Definition>Definition: J.M., with information from https://en.wikipedia.org/wiki/Channa_micropeltes
+
+GameData: Animal Crossing: New Horizons (2020), collected from https://animalcrossing.fandom.com/wiki/Fish_(New_Horizons)</Definition>
         <GameData>Seasonality (N): June to August
 Seasonality (S): December to February
 Time of Day: 9 AM to 4 PM
 Size: 5
 Price: 5,500
 Location: Pond</GameData>
+        <rdfs:seeAlso>The giant snakehead (Channa micropeltes) is a fish native to Southeast Asia and can grow up to 1.5m in length. The giant snakehead is a mudfish and has the ability to climb onto land and breathe air using its lungs. Despite this, it is only able to travel short distances, and cannot move outside of the mud due to its large size and primitive lungs.</rdfs:seeAlso>
+        <rdfs:seeAlso>https://animalcrossing.fandom.com/wiki/Giant_snakehead</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -1437,12 +1447,17 @@ Location: Pond</GameData>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#GoldenTrout"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <Definition>The golden trout (Oncorhynchus aguabonita) is a trout species native to the rivers of California, where it is also the state fish. Golden trout are prized for their bright golden colouration along their belly.</Definition>
         <GameData>Seasonality (N): March to May, September to November
 Seasonality (S): March to May, September to November
 Time of Day: 4 PM to 9 AM
 Size: 3
 Price: 15,000
 Location: River (Clifftop)</GameData>
+        <rdfs:isDefinedBy>Definition: J.M., with information from https://en.wikipedia.org/wiki/Golden_trout
+
+GameData: Animal Crossing: New Horizons (2020), collected from https://animalcrossing.fandom.com/wiki/Fish_(New_Horizons)</rdfs:isDefinedBy>
+        <rdfs:seeAlso>https://animalcrossing.fandom.com/wiki/Golden_trout</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -2171,12 +2186,17 @@ Location: River (Clifftop)</GameData>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#KingSalmon"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <Definition>The king salmon (Oncorhynchus tshawytscha), also known as the Chinook salmon, are a species of anadromous fish native to western North America.  King salmon spend the first year of life in river before spending 3 to 4 years in the ocean to grow and mature. They return to freshwater to reproduce, sometimes migrating up to 3,000km upriver. Although the king salmon fisheries is highly industrialized, some populations are endangered due to overfishing.</Definition>
         <GameData>Seasonality (N): September
 Seasonality (S): March
 Time of Day: All day
 Size: 6
 Price: 1,800
 Location: River (Mouth)</GameData>
+        <rdfs:isDefinedBy>Definition: J.M., with information from https://en.wikipedia.org/wiki/Chinook_salmon
+
+GameData: Animal Crossing: New Horizons (2020), collected from https://animalcrossing.fandom.com/wiki/Fish_(New_Horizons)</rdfs:isDefinedBy>
+        <rdfs:seeAlso>https://animalcrossing.fandom.com/wiki/King_salmon</rdfs:seeAlso>
     </owl:Class>
     
 
