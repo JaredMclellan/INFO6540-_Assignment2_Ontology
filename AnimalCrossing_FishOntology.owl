@@ -277,7 +277,7 @@ Fish1 SharesTankWith fish2</Definition>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#NeonTetra"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <Definition>The freshwater angelfish (Pterophyllum sp.) is a laterally compressed, banded fish species found in the rivers of the island. Freshwater angelfish are commonly kept in aquariums, though most captive breeds stem from decades of selective breeding. Not to be confused with marine angelfish.</Definition>
+        <Definition>The freshwater angelfish (Pterophyllum sp.) is a laterally compressed, banded fish species found in the rivers of tropical South America. Freshwater angelfish are commonly kept in aquariums, though most captive breeds stem from decades of selective breeding. Not to be confused with marine angelfish.</Definition>
         <GameData>Seasonality (N): May to October
 Seasonality (S): November to April
 Time of Day: 4 PM to 9 AM
@@ -1356,16 +1356,16 @@ GameData: Animal Crossing: New Horizons (2020), collected from https://animalcro
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Koi"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <Definition>Definition: J.M., with information from https://en.wikipedia.org/wiki/Channa_micropeltes
-
-GameData: Animal Crossing: New Horizons (2020), collected from https://animalcrossing.fandom.com/wiki/Fish_(New_Horizons)</Definition>
+        <Definition>The giant snakehead (Channa micropeltes) is a fish native to Southeast Asia and can grow up to 1.5m in length. The giant snakehead is a mudfish and has the ability to climb onto land and breathe air using its lungs. Despite this, it is only able to travel short distances, and cannot move outside of the mud due to its large size and primitive lungs.</Definition>
         <GameData>Seasonality (N): June to August
 Seasonality (S): December to February
 Time of Day: 9 AM to 4 PM
 Size: 5
 Price: 5,500
 Location: Pond</GameData>
-        <rdfs:seeAlso>The giant snakehead (Channa micropeltes) is a fish native to Southeast Asia and can grow up to 1.5m in length. The giant snakehead is a mudfish and has the ability to climb onto land and breathe air using its lungs. Despite this, it is only able to travel short distances, and cannot move outside of the mud due to its large size and primitive lungs.</rdfs:seeAlso>
+        <rdfs:isDefinedBy>Definition: J.M., with information from https://en.wikipedia.org/wiki/Channa_micropeltes
+
+GameData: Animal Crossing: New Horizons (2020), collected from https://animalcrossing.fandom.com/wiki/Fish_(New_Horizons)</rdfs:isDefinedBy>
         <rdfs:seeAlso>https://animalcrossing.fandom.com/wiki/Giant_snakehead</rdfs:seeAlso>
     </owl:Class>
     
@@ -2301,12 +2301,17 @@ GameData: Animal Crossing: New Horizons (2020), collected from https://animalcro
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Koi"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <Definition>Koi are coloured varities of the Amur carp (Cyprinus rubrofuscus) that are often kept by hobbyists in koi ponds. Varities are differentiated by colouration, patterning, and scalation. Some varities can reach high prices depending on their appearance and patterning. Koi are a hardy fish and some have been reported to live for over 50 years.</Definition>
         <GameData>Seasonality (N): All year
 Seasonality (S): All year
 Time of Day: 4 PM to 9 AM
 Size: 4
 Price: 4,000
 Location: Pond</GameData>
+        <rdfs:isDefinedBy>Definition: J.M., with information from https://en.wikipedia.org/wiki/Koi
+
+GameData: Animal Crossing: New Horizons (2020), collected from https://animalcrossing.fandom.com/wiki/Fish_(New_Horizons)</rdfs:isDefinedBy>
+        <rdfs:seeAlso>https://animalcrossing.fandom.com/wiki/Koi</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -2757,12 +2762,17 @@ Some bodies of water have more specific varities. These varities inherit the fis
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#NeonTetra"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <Definition>Definition: J.M., with information from https://en.wikipedia.org/wiki/Neon_tetra
+
+GameData: Animal Crossing: New Horizons (2020), collected from https://animalcrossing.fandom.com/wiki/Fish_(New_Horizons)</Definition>
+        <Definition>The neon tetra (Paracheirodon innesi) is a freshwater fish found in Amazon river basins. They are characterized by a bright iridescent blue stripe running across the body. It&apos;s bright colouration and hardy nature make it a popular choice for aquarium hobbyists. Almost all neon tetras in the aquarium trade are captively bred from southeast Asia.</Definition>
         <GameData>Seasonality (N): April to November
 Seasonality (S): October to May
 Time of Day: 9 AM to 4 PM
 Size: 1
 Price: 500
 Location: River</GameData>
+        <rdfs:seeAlso>https://animalcrossing.fandom.com/wiki/Neon_tetra</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -2852,12 +2862,17 @@ Location: River</GameData>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Piranha"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <Definition>The piranha (a group of members from the Serrasalmidae family) are freshwater fish that inhabit South American rivers and lakes. The piranha is well known in popular culture for its sharp teeth, voracious appetite, and danger to humans. However, pirhana attacks occur rarely with humans and are very rarely fatal. Still, populations can pose a risk to children and warning signs are placed at high-risk locations.</Definition>
         <GameData>Seasonality (N): June to September
 Seasonality (S): December to March
 Time of Day: 9 AM to 4 PM, 9 PM to 4 AM
 Size: 2
 Price: 2,500
 Location: River</GameData>
+        <rdfs:isDefinedBy>Definition: J.M., with information from https://en.wikipedia.org/wiki/Piranha
+
+GameData: Animal Crossing: New Horizons (2020), collected from https://animalcrossing.fandom.com/wiki/Fish_(New_Horizons)</rdfs:isDefinedBy>
+        <rdfs:seeAlso>https://animalcrossing.fandom.com/wiki/Piranha</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -3177,12 +3192,17 @@ Location: River</GameData>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Seahorse"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <Definition>While rays represent a large section of flattened cartilaginous fishes, the representation in game is thorugh the red stingray (Hemitrygon akajei). The red stingray inhabits sandy marine habitats, although it has been found in brackish waters. Its body is diamond shaped and is named for its orange-red underside. It can grow up to 2m long, although most do not exceed 1m of growth.</Definition>
         <GameData>Seasonality (N): August to November
 Seasonality (S): February to May
 Time of Day: 4 AM to 9 PM
 Size: 5
 Price: 3,000
 Location: Sea</GameData>
+        <rdfs:isDefinedBy>Definition: J.M., with information from https://en.wikipedia.org/wiki/Red_stingray
+
+GameData: Animal Crossing: New Horizons (2020), collected from https://animalcrossing.fandom.com/wiki/Fish_(New_Horizons)</rdfs:isDefinedBy>
+        <rdfs:seeAlso>https://animalcrossing.fandom.com/wiki/Ray</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -3305,12 +3325,17 @@ Location: Sea</GameData>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Seahorse"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <Definition>The (northern) red snapper (Lutjanus campechanus) is named for its reddish colouration, with more intense pigmentation occuring along its back. The species tends to inhabit bottom waters between 9 to 60m deep, though individuals have been caught as deep as 90m. It is a commericially important fish for its culinary uses, although many fishes sold as red snappers are actually other members of the family.</Definition>
         <GameData>Seasonality (N): All year
 Seasonality (S): All year
 Time of Day: All day
 Size: 4
 Price: 3,000
 Location: Sea</GameData>
+        <rdfs:isDefinedBy>Definition: J.M., with information from https://en.wikipedia.org/wiki/Northern_red_snapper
+
+GameData: Animal Crossing: New Horizons (2020), collected from https://animalcrossing.fandom.com/wiki/Fish_(New_Horizons)</rdfs:isDefinedBy>
+        <rdfs:seeAlso>https://animalcrossing.fandom.com/wiki/Red_snapper</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -3565,12 +3590,17 @@ Location: Sea</GameData>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Seahorse"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <Definition>The sea bass can refer to any number of marine fish, but in Animal Crossing they appear as the Japanese sea bass (Lateolabrax japonicus). The sea bass is a catadromous fish, it migrates into the sea to spawn from freshwater. The sea bass is a protandrous hermaphrodite. Individuals will reach sexual maturity as males around 2 years, and then change into females as they age.</Definition>
         <GameData>Seasonality (N): All year
 Seasonality (S): All year
 Time of Day: All day
 Size: 5
 Price: 400
 Location: Sea</GameData>
+        <rdfs:isDefinedBy>Definition: J.M., with information from https://en.wikipedia.org/wiki/Japanese_sea_bass
+
+GameData: Animal Crossing: New Horizons (2020), collected from https://animalcrossing.fandom.com/wiki/Fish_(New_Horizons)</rdfs:isDefinedBy>
+        <rdfs:seeAlso>https://animalcrossing.fandom.com/wiki/Sea_bass</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -3687,12 +3717,17 @@ Location: Sea</GameData>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Seahorse"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <Definition>The seahorses are an unusually shaped group of fishes from the Hippocampus genus. Seahorses feature and elongated head and neck, similar to a horse, as well as bony armor, upright posture, and a prehensile tail. Seahorses have an intricate reproducation strategy involving multiple stages of courtship and male gestation and birth.</Definition>
         <GameData>Seasonality (N): April to November
 Seasonality (S): October to May
 Time of Day: All day
 Size: 1
 Price: 1,100
 Location: Sea</GameData>
+        <rdfs:isDefinedBy>Definition: J.M., with information from https://en.wikipedia.org/wiki/Seahorse
+
+GameData: Animal Crossing: New Horizons (2020), collected from https://animalcrossing.fandom.com/wiki/Fish_(New_Horizons)</rdfs:isDefinedBy>
+        <rdfs:seeAlso>https://animalcrossing.fandom.com/wiki/Seahorse</rdfs:seeAlso>
     </owl:Class>
     
 
