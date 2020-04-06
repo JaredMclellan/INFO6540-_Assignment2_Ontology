@@ -7,7 +7,11 @@
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
-    <owl:Ontology rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10"/>
+    <owl:Ontology rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10">
+        <License>GNU General Public License v3.0</License>
+        <rdfs:comment>This ontology is based around the fish and aquatic creatures available to catch in Animal Crossing: New Horizons (2020) on the Nintendo Switch. This ontology connects fish species with their attributes and qualities.</rdfs:comment>
+        <Creator>Jared McLellan</Creator>
+    </owl:Ontology>
     
 
 
@@ -22,6 +26,12 @@
     
 
 
+    <!-- http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Creator -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Creator"/>
+    
+
+
     <!-- http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Definition -->
 
     <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Definition"/>
@@ -31,6 +41,12 @@
     <!-- http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#GameData -->
 
     <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#GameData"/>
+    
+
+
+    <!-- http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#License -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#License"/>
     
 
 
