@@ -289,15 +289,17 @@ Fish1 SharesTankWith fish2</Definition>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#NeonTetra"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <Definition>The freshwater angelfish (Pterophyllum sp.) is a laterally compressed, banded fish species found in the rivers of the island. Freshwater angelfish are commonly kept in aquariums, though most captive breeds stem from decades of selective breeding. Not to be confused with marine angelfish.</Definition>
         <GameData>Seasonality (N): May to October
 Seasonality (S): November to April
 Time of Day: 4 PM to 9 AM
 Size: 2
 Price: 3,000
 Location: River</GameData>
-        <rdfs:seeAlso>https://animalcrossing.fandom.com/wiki/Angelfish
+        <rdfs:isDefinedBy>Definition: J.M., with information from https://en.wikipedia.org/wiki/Pterophyllum
 
-https://en.wikipedia.org/wiki/Rhodeus</rdfs:seeAlso>
+GameData: Animal Crossing: New Horizons (2020), collected from https://animalcrossing.fandom.com/wiki/Fish_(New_Horizons)</rdfs:isDefinedBy>
+        <rdfs:seeAlso>https://animalcrossing.fandom.com/wiki/Angelfish</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -408,18 +410,17 @@ https://en.wikipedia.org/wiki/Rhodeus</rdfs:seeAlso>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Pike"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <Definition>The bitterling is a tiny fish, available for most of the winter and parts of the fall and spring.</Definition>
+        <Definition>The bitterling (Rhodeus sp.) is a tiny fish, available on the island for most of the winter and parts of the fall and spring. Bitterling pairs reproduce by transferring genetic material into a host mussel. Fertilization and birth then take place within the protective shell of the mussel.</Definition>
         <GameData>Seasonality (N): November-March
 Seasonality (S): May-September
 Time of Day: All day
 Size: 1
 Price: 900
 Location: River</GameData>
-        <rdfs:isDefinedBy>In-game data from Animal Crossing: New Horizons
-Comment from J.M.</rdfs:isDefinedBy>
-        <rdfs:seeAlso>https://animalcrossing.fandom.com/wiki/Bitterling
+        <rdfs:isDefinedBy>Definition: J.M., with information from https://en.wikipedia.org/wiki/Rhodeus
 
-https://en.wikipedia.org/wiki/Rhodeus</rdfs:seeAlso>
+GameData: Animal Crossing: New Horizons (2020), collected from https://animalcrossing.fandom.com/wiki/Fish_(New_Horizons)</rdfs:isDefinedBy>
+        <rdfs:seeAlso>https://animalcrossing.fandom.com/wiki/Bitterling</rdfs:seeAlso>
     </owl:Class>
     
 
