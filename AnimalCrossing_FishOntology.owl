@@ -225,18 +225,6 @@ Fish1 SharesTankWith fish2</Definition>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasPrice"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#PriceHigh"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasSize"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SizeSmall"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#IsAvailableDuring"/>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HoursDawn"/>
             </owl:Restriction>
@@ -295,6 +283,18 @@ Fish1 SharesTankWith fish2</Definition>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#NeonTetra"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasPrice"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#PriceHigh"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasSize"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SizeSmall"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <Definition>The freshwater angelfish (Pterophyllum sp.) is a laterally compressed, banded fish species found in the rivers of tropical South America. Freshwater angelfish are commonly kept in aquariums, though most captive breeds stem from decades of selective breeding. Not to be confused with marine angelfish.</Definition>
         <GameData>Seasonality (N): May to October
 Seasonality (S): November to April
@@ -318,18 +318,6 @@ GameData: Animal Crossing: New Horizons (2020), collected from https://animalcro
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasHabitat"/>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#River"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasPrice"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#PriceLow"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasSize"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SizeSmall"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -410,6 +398,18 @@ GameData: Animal Crossing: New Horizons (2020), collected from https://animalcro
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Koi"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasPrice"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#PriceLow"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasSize"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SizeSmall"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <Definition>The bitterling (Rhodeus sp.) is a tiny fish, available on the island for most of the winter and parts of the fall and spring. Bitterling pairs reproduce by transferring genetic material into a host mussel. Fertilization and birth then take place within the protective shell of the mussel.</Definition>
         <GameData>Seasonality (N): November-March
 Seasonality (S): May-September
@@ -433,18 +433,6 @@ GameData: Animal Crossing: New Horizons (2020), collected from https://animalcro
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasHabitat"/>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Sea"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasPrice"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#PriceVeryHigh"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasSize"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SizeMedium"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -513,6 +501,18 @@ GameData: Animal Crossing: New Horizons (2020), collected from https://animalcro
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Seahorse"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasPrice"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#PriceVeryHigh"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasSize"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SizeMedium"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <Definition>While blowfish can refer to any number of species in the puffer family (Tetraodontidae), this version  is a representation as the Japaenese puffer (Takifugu rubripes). Like some other puffers, the Japanese puffer is highly toxic. The Japanese puffer is notable for having a very small and fully sequenced genome.</Definition>
         <GameData>Seasonality (N): November to February
 Seasonality (S): May to August
@@ -536,18 +536,6 @@ GameData: Animal Crossing: New Horizons (2020), collected from https://animalcro
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasHabitat"/>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Pier"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasPrice"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#PriceVeryHigh"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasSize"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SizeLarge"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -616,6 +604,18 @@ GameData: Animal Crossing: New Horizons (2020), collected from https://animalcro
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#BlueMarlin"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasPrice"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#PriceVeryHigh"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasSize"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SizeLarge"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <Definition>The blue marlins (Makaira nigricans and Makaira mazara) is well known for its elongated bill, resembling a rapier or sword. The blue marlin uses its bill to maim or kill prey by knifing motions. Marlin, although threatened, is a commercially valuable fish due to its high fat content.</Definition>
         <GameData>Seasonality (N): November to April, July to September
 Seasonality (S): January to March, May to October
@@ -639,18 +639,6 @@ GameData: Animal Crossing: New Horizons (2020), collected from https://animalcro
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasHabitat"/>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Pond"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasPrice"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#PriceLow"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasSize"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#PriceMedium"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -725,6 +713,18 @@ GameData: Animal Crossing: New Horizons (2020), collected from https://animalcro
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Koi"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasPrice"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#PriceLow"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasSize"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#PriceMedium"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <Definition>Catfish are an order of fishes (Siluriformes) named for their barbels, which bear resemblance to cat whiskers. Although barbels often play a prominent component of catfish imagery, not all catfish possess them. Catfish have one of the greatest ranges of sizes between each species in fish. The smallest can reach sexual maturity at 1 cm while the larger species have been known to exceed 2.5m.</Definition>
         <GameData>Seasonality (N): May to October
 Seasonality (S): November to April
@@ -754,18 +754,6 @@ GameData: Animal Crossing: New Horizons (2020), collected from https://animalcro
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasHabitat"/>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#RiverAlpine"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasPrice"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#PriceMedium"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasSize"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SizeMedium"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -828,6 +816,18 @@ GameData: Animal Crossing: New Horizons (2020), collected from https://animalcro
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#GoldenTrout"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasPrice"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#PriceMedium"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasSize"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SizeMedium"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <Definition>The cherry salmon (Oncorhynchus masou) is a species of salmon found in the northern Pacific Ocean along the coasts of Asia. The cherry salmon, like other members of the salmonids, are an anadromous species and spend part of their life in the ocean before returning to rivers to breed. A few subspecies of cherry salmon exist, including some that are completely land-locked.</Definition>
         <GameData>Seasonality (N): March to June, September to November
 Seasonality (S): September to December, March to May
@@ -851,18 +851,6 @@ GameData: Animal Crossing: New Horizons (2020), collected from https://animalcro
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasHabitat"/>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Sea"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasPrice"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#PriceLow"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasSize"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SizeSmall"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -925,6 +913,18 @@ GameData: Animal Crossing: New Horizons (2020), collected from https://animalcro
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Clownfish"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasPrice"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#PriceLow"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasSize"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SizeSmall"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <Definition>The clownfish (Amphiprioninae) are typically recognized for their notable colouration.  Usually possessing a yellow, red, black, or orange body with white bars or patches. Clownfish are also known for the symbiotic relationship with sea anenomes. The anenome provides the clownfish with protection from predators and the clownfish takes care of the anenome&apos;s parasites.</Definition>
         <GameData>Seasonality (N): April to September
 Seasonality (S): October to March
@@ -948,18 +948,6 @@ GameData: Animal Crossing: New Horizons (2020), collected from https://animalcro
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasHabitat"/>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Sea"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasPrice"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#PriceVeryLow"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasSize"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SizeMedium"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1052,6 +1040,18 @@ GameData: Animal Crossing: New Horizons (2020), collected from https://animalcro
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Seahorse"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasPrice"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#PriceVeryLow"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasSize"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SizeMedium"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <Definition>The common dab (Limanda limanda) is a commercially fished flatfishes. The flatfish are a latterally compressed group of fishes that live along the sea floor. The dab is a part of the right-eyed flounders (Pleuronectidae) named as their eyes are located on the right side of their body. The flatfish resemble a typical fish morphology as young, before the eyes migrate to one side of the body during development.</Definition>
         <GameData>Seasonality (N): October to April
 Seasonality (S): April to October
@@ -1075,18 +1075,6 @@ GameData: Animal Crossing: New Horizons (2020), collected from https://animalcro
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasHabitat"/>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#River"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasPrice"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#PriceVeryLow"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasSize"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SizeMedium"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1149,6 +1137,18 @@ GameData: Animal Crossing: New Horizons (2020), collected from https://animalcro
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Dace"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasPrice"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#PriceVeryLow"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasSize"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SizeMedium"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <Definition>The dace refers to a number of ray-finned fishes, but in Animal Crossing it appears as the Japanese dace/big-scaled redfish (Tribolodon hakonensis). The dace acts as host to a large number of aquatic parasites, both internally and externally.</Definition>
         <GameData>Seasonality (N): All year
 Seasonality (S): All year
@@ -1172,18 +1172,6 @@ GameData: Animal Crossing: New Horizons (2020), collected from https://animalcro
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasHabitat"/>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#River"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasPrice"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#PriceVeryHigh"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasSize"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SizeLarge"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1238,6 +1226,18 @@ GameData: Animal Crossing: New Horizons (2020), collected from https://animalcro
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SharesTankWith"/>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Piranha"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasPrice"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#PriceVeryHigh"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasSize"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SizeLarge"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <Definition>The dorado (Salminus brasiliensis) is a gold coloured fish named after the Spanish legend of El Dorado (&quot;The Golden One&quot;) . The dorado can be found in the freshwater rivers of South America where it is the apex predator of the ecosysteme. It has no relation with the marine fish with the same name.</Definition>
@@ -1330,18 +1330,6 @@ GameData: Animal Crossing: New Horizons (2020), collected from https://animalcro
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasPrice"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#PriceVeryHigh"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasSize"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SizeLarge"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#IsAvailableDuring"/>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HoursAfternoon"/>
             </owl:Restriction>
@@ -1382,6 +1370,18 @@ GameData: Animal Crossing: New Horizons (2020), collected from https://animalcro
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Koi"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasPrice"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#PriceVeryHigh"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasSize"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SizeLarge"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <Definition>The giant snakehead (Channa micropeltes) is a fish native to Southeast Asia and can grow up to 1.5m in length. The giant snakehead is a mudfish and has the ability to climb onto land and breathe air using its lungs. Despite this, it is only able to travel short distances, and cannot move outside of the mud due to its large size and primitive lungs.</Definition>
         <GameData>Seasonality (N): June to August
 Seasonality (S): December to February
@@ -1405,18 +1405,6 @@ GameData: Animal Crossing: New Horizons (2020), collected from https://animalcro
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasHabitat"/>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#RiverAlpine"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasPrice"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#PriceVeryHigh"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasSize"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SizeMedium"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1471,6 +1459,18 @@ GameData: Animal Crossing: New Horizons (2020), collected from https://animalcro
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SharesTankWith"/>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#GoldenTrout"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasPrice"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#PriceVeryHigh"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasSize"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SizeMedium"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <Definition>The golden trout (Oncorhynchus aguabonita) is a trout species native to the rivers of California, where it is also the state fish. Golden trout are prized for their bright golden colouration along their belly.</Definition>
@@ -2154,18 +2154,6 @@ GameData: Animal Crossing: New Horizons (2020), collected from https://animalcro
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasPrice"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#PriceMedium"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasSize"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SizeLarge"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#IsAvailableDuring"/>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HoursAfternoon"/>
             </owl:Restriction>
@@ -2212,6 +2200,18 @@ GameData: Animal Crossing: New Horizons (2020), collected from https://animalcro
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#KingSalmon"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasPrice"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#PriceMedium"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasSize"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SizeLarge"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <Definition>The king salmon (Oncorhynchus tshawytscha), also known as the Chinook salmon, are a species of anadromous fish native to western North America.  King salmon spend the first year of life in river before spending 3 to 4 years in the ocean to grow and mature. They return to freshwater to reproduce, sometimes migrating up to 3,000km upriver. Although the king salmon fisheries is highly industrialized, some populations are endangered due to overfishing.</Definition>
         <GameData>Seasonality (N): September
 Seasonality (S): March
@@ -2235,18 +2235,6 @@ GameData: Animal Crossing: New Horizons (2020), collected from https://animalcro
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasHabitat"/>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Pond"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasPrice"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#PriceHigh"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasSize"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SizeMedium"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -2325,6 +2313,18 @@ GameData: Animal Crossing: New Horizons (2020), collected from https://animalcro
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SharesTankWith"/>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Koi"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasPrice"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#PriceHigh"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasSize"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SizeMedium"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <Definition>Koi are coloured varities of the Amur carp (Cyprinus rubrofuscus) that are often kept by hobbyists in koi ponds. Varities are differentiated by colouration, patterning, and scalation. Some varities can reach high prices depending on their appearance and patterning. Koi are a hardy fish and some have been reported to live for over 50 years.</Definition>
@@ -2746,18 +2746,6 @@ Some bodies of water have more specific varities. These varities inherit the fis
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasPrice"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#PriceLow"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasSize"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SizeSmall"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#IsAvailableDuring"/>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HoursAfternoon"/>
             </owl:Restriction>
@@ -2798,6 +2786,18 @@ Some bodies of water have more specific varities. These varities inherit the fis
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#NeonTetra"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasPrice"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#PriceLow"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasSize"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SizeSmall"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <Definition>Definition: J.M., with information from https://en.wikipedia.org/wiki/Neon_tetra
 
 GameData: Animal Crossing: New Horizons (2020), collected from https://animalcrossing.fandom.com/wiki/Fish_(New_Horizons)</Definition>
@@ -2836,18 +2836,6 @@ Location: River</GameData>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasHabitat"/>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#River"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasPrice"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#PriceHigh"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasSize"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SizeSmall"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -2896,6 +2884,18 @@ Location: River</GameData>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SharesTankWith"/>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Piranha"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasPrice"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#PriceHigh"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasSize"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SizeSmall"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <Definition>The piranha (a group of members from the Serrasalmidae family) are freshwater fish that inhabit South American rivers and lakes. The piranha is well known in popular culture for its sharp teeth, voracious appetite, and danger to humans. However, pirhana attacks occur rarely with humans and are very rarely fatal. Still, populations can pose a risk to children and warning signs are placed at high-risk locations.</Definition>
@@ -3152,18 +3152,6 @@ GameData: Animal Crossing: New Horizons (2020), collected from https://animalcro
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasPrice"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#PriceHigh"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasSize"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SizeLarge"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#IsAvailableDuring"/>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HoursAfternoon"/>
             </owl:Restriction>
@@ -3240,6 +3228,18 @@ GameData: Animal Crossing: New Horizons (2020), collected from https://animalcro
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Seahorse"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasPrice"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#PriceHigh"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasSize"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SizeLarge"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <Definition>While rays represent a large section of flattened cartilaginous fishes, the representation in game is thorugh the red stingray (Hemitrygon akajei). The red stingray inhabits sandy marine habitats, although it has been found in brackish waters. Its body is diamond shaped and is named for its orange-red underside. It can grow up to 2m long, although most do not exceed 1m of growth.</Definition>
         <GameData>Seasonality (N): August to November
 Seasonality (S): February to May
@@ -3263,18 +3263,6 @@ GameData: Animal Crossing: New Horizons (2020), collected from https://animalcro
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasHabitat"/>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Sea"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasPrice"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#PriceHigh"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasSize"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SizeMedium"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -3371,6 +3359,18 @@ GameData: Animal Crossing: New Horizons (2020), collected from https://animalcro
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SharesTankWith"/>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Seahorse"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasPrice"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#PriceHigh"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasSize"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SizeMedium"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <Definition>The (northern) red snapper (Lutjanus campechanus) is named for its reddish colouration, with more intense pigmentation occuring along its back. The species tends to inhabit bottom waters between 9 to 60m deep, though individuals have been caught as deep as 90m. It is a commericially important fish for its culinary uses, although many fishes sold as red snappers are actually other members of the family.</Definition>
@@ -3532,18 +3532,6 @@ GameData: Animal Crossing: New Horizons (2020), collected from https://animalcro
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasPrice"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#PriceVeryLow"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasSize"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SizeLarge"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#IsAvailableDuring"/>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HoursAfternoon"/>
             </owl:Restriction>
@@ -3638,6 +3626,18 @@ GameData: Animal Crossing: New Horizons (2020), collected from https://animalcro
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Seahorse"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasPrice"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#PriceVeryLow"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasSize"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SizeLarge"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <Definition>The sea bass can refer to any number of marine fish, but in Animal Crossing they appear as the Japanese sea bass (Lateolabrax japonicus). The sea bass is a catadromous fish, it migrates into the sea to spawn from freshwater. The sea bass is a protandrous hermaphrodite. Individuals will reach sexual maturity as males around 2 years, and then change into females as they age.</Definition>
         <GameData>Seasonality (N): All year
 Seasonality (S): All year
@@ -3661,18 +3661,6 @@ GameData: Animal Crossing: New Horizons (2020), collected from https://animalcro
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasHabitat"/>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Sea"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasPrice"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#PriceMedium"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasSize"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SizeSmall"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -3763,6 +3751,18 @@ GameData: Animal Crossing: New Horizons (2020), collected from https://animalcro
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SharesTankWith"/>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Seahorse"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasPrice"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#PriceMedium"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasSize"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SizeSmall"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <Definition>The seahorses are an unusually shaped group of fishes from the Hippocampus genus. Seahorses feature and elongated head and neck, similar to a horse, as well as bony armor, upright posture, and a prehensile tail. Seahorses have an intricate reproducation strategy involving multiple stages of courtship and male gestation and birth.</Definition>
