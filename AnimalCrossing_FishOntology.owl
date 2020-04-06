@@ -1131,12 +1131,16 @@ GameData: Animal Crossing: New Horizons (2020), collected from https://animalcro
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Dace"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <Definition>The dace refers to a number of ray-finned fishes, but in Animal Crossing it appears as the Japanese dace/big-scaled redfish (Tribolodon hakonensis). The dace acts as host to a large number of aquatic parasites, both internally and externally.</Definition>
         <GameData>Seasonality (N): All year
 Seasonality (S): All year
 Time of Day: 4 PM to 9 AM
 Size: 3
 Price: 240
 Location: River</GameData>
+        <rdfs:isDefinedBy>Definition: J.M., with information from https://en.wikipedia.org/wiki/Big-scaled_redfin and http://www.marinespecies.org/aphia.php?p=taxdetails&amp;id=283042#attributes
+
+GameData: Animal Crossing: New Horizons (2020), collected from https://animalcrossing.fandom.com/wiki/Fish_(New_Horizons)</rdfs:isDefinedBy>
         <rdfs:seeAlso>https://animalcrossing.fandom.com/wiki/Dace</rdfs:seeAlso>
     </owl:Class>
     
