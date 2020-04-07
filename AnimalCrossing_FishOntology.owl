@@ -1258,6 +1258,16 @@ GameData: Animal Crossing: New Horizons (2020), collected from https://animalcro
     <!-- http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Fish -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Fish">
+        <Definition>Fish (and other aquatic organisms) are creatures captured in bodies of water by a fishing rod in Animal Crossing: New Horizon. Fish observed are listed in the Critterpedia and able to be donated to the museum. This does not include garbage, while they are catchable by fishing rods they do not exist in the Critterpedia and cannot be donated to the museum.</Definition>
+        <rdfs:isDefinedBy>J.M.</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#FishSpecies -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#FishSpecies">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Fish"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#HasHabitat"/>
@@ -1291,19 +1301,9 @@ GameData: Animal Crossing: New Horizons (2020), collected from https://animalcro
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#SharesTankWith"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Fish"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#FishSpecies"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <Definition>Fish (and other aquatic organisms) are creatures captured in bodies of water by a fishing rod in Animal Crossing: New Horizon. Fish observed are listed in the Critterpedia and able to be donated to the museum. This does not include garbage, while they are catchable by fishing rods they do not exist in the Critterpedia and cannot be donated to the museum.</Definition>
-        <rdfs:isDefinedBy>J.M.</rdfs:isDefinedBy>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#FishSpecies -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#FishSpecies">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jared/ontologies/2020/2/untitled-ontology-10#Fish"/>
         <Definition>Fish species are the different types of fish (or other aquatic organisms) that can be caught in Animal Crossing: New Horizons. A fish species has a set price, size, location, shadow size, and aquarium tank that does not differ from other members of the same species.</Definition>
         <rdfs:isDefinedBy>J.M.</rdfs:isDefinedBy>
     </owl:Class>
